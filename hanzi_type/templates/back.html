@@ -1,0 +1,38 @@
+<div class="wrap">
+  <div class="num">#{{No}}</div>
+  <div class="vi vi-small">{{Vietnamese}}</div>
+  {{#English}}<div class="en en-small">{{English}}</div>{{/English}}
+
+  <div class="typebox">{{type:Chinese}}</div>
+
+  <div class="divider"></div>
+
+  <div class="zh">{{Chinese}}</div>
+  {{#Pinyin}}<div class="pinyin">{{Pinyin}}</div>{{/Pinyin}}
+
+  {{#Audio}}
+  <div class="audio media-audio" id="answer-audio">
+    {{Audio}}
+    <button type="button" class="play-btn" aria-label="Phát lại"
+            onclick="var a = document.querySelector('#answer-audio audio'); if (a) { a.currentTime = 0; a.play(); }">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+  </div>
+  {{/Audio}}
+
+  {{#Phonetic VI}}<div class="boi"><span class="label">Đọc bồi</span>{{Phonetic VI}}</div>{{/Phonetic VI}}
+
+  {{#Video}}<div class="media-video answer-video">{{Video}}</div>{{/Video}}
+  {{#Image}}<div class="image">{{Image}}</div>{{/Image}}
+</div>
+
+<script>
+(function () {
+  // tự phát audio khi lật mặt sau (thay cho [sound:] mặc định của Anki)
+  var a = document.querySelector("#answer-audio audio");
+  if (a) {
+    var p = a.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+})();
+</script>

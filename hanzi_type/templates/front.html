@@ -1,0 +1,44 @@
+<div class="wrap">
+  <div class="num">#{{No}}</div>
+  <div class="vi">{{Vietnamese}}</div>
+  {{#English}}<div class="en">{{English}}</div>{{/English}}
+
+  <div class="typebox">{{type:Chinese}}</div>
+  <div class="hint">Gõ câu này bằng tiếng Trung rồi nhấn Enter</div>
+
+  <div class="hints">
+    <div class="hint-label">Gợi ý</div>
+    <div class="hint-btns">
+      {{#Pinyin}}<button type="button" class="hint-btn" data-hint="pinyin">Pinyin</button>{{/Pinyin}}
+      {{#Audio}}<button type="button" class="hint-btn" data-hint="audio">Nghe</button>{{/Audio}}
+      {{#Video}}<button type="button" class="hint-btn" data-hint="video">Video</button>{{/Video}}
+    </div>
+    {{#Pinyin}}<div class="hint-panel" id="hint-pinyin"><div class="pinyin">{{Pinyin}}</div></div>{{/Pinyin}}
+    {{#Audio}}<div class="hint-panel media-audio" id="hint-audio">{{Audio}}</div>{{/Audio}}
+    {{#Video}}<div class="hint-panel media-video" id="hint-video">{{Video}}</div>{{/Video}}
+  </div>
+</div>
+
+<script>
+(function () {
+  function refocus() {
+    var t = document.getElementById("typeans");
+    if (t) t.focus();
+  }
+  document.querySelectorAll(".hint-btn").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById("hint-" + btn.dataset.hint);
+      if (!panel) return;
+      panel.classList.add("open");
+      btn.classList.add("used");
+      var media = panel.querySelector("audio, video");
+      if (media) {
+        media.currentTime = 0;
+        var p = media.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+      if (btn.dataset.hint !== "video") refocus();
+    });
+  });
+})();
+</script>
