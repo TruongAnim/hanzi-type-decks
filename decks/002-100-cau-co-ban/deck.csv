@@ -1,0 +1,101 @@
+No,Chinese,Pinyin,Vietnamese,English,Phonetic VI,Audio,Video,Image,Tags
+1,你好！,nǐ hǎo!,Xin chào!,Hello!,Ní hảo!,,,,chao-hoi
+2,您好！,nín hǎo!,"Xin chào (lịch sự, với người lớn)!",Hello! (polite),Nín hảo!,,,,chao-hoi
+3,早上好！,zǎo shang hǎo!,Chào buổi sáng!,Good morning!,Zảo sang hảo!,,,,chao-hoi
+4,晚上好！,wǎn shang hǎo!,Chào buổi tối!,Good evening!,Oản sang hảo!,,,,chao-hoi
+5,晚安！,wǎn ān!,Chúc ngủ ngon!,Good night!,Oản an!,,,,chao-hoi
+6,再见！,zài jiàn!,Tạm biệt!,Goodbye!,Zài chiền!,,,,chao-hoi
+7,明天见！,míng tiān jiàn!,Mai gặp lại nhé!,See you tomorrow!,Mính thiên chiền!,,,,chao-hoi
+8,一会儿见！,yí huìr jiàn!,Lát nữa gặp nhé!,See you later!,Í huầy chiền!,,,,chao-hoi
+9,欢迎！,huān yíng!,Chào mừng!,Welcome!,Hoanính!,,,,chao-hoi
+10,你好吗？,nǐ hǎo ma?,Bạn khỏe không?,How are you?,Ní hảo ma?,,,,chao-hoi
+11,我很好。,wǒ hěn hǎo.,Tôi rất khỏe.,I'm fine.,Úa hấn hảo.,,,,chao-hoi
+12,你呢？,nǐ ne?,Còn bạn thì sao?,And you?,Nỉ nơ?,,,,chao-hoi
+13,我也很好。,wǒ yě hěn hǎo.,Tôi cũng khỏe.,I'm fine too.,Úa dế hấn hảo.,,,,chao-hoi
+14,谢谢！,xiè xie!,Cảm ơn!,Thanks!,Xiề xiê!,,,,lich-su
+15,谢谢你！,xiè xie nǐ!,Cảm ơn bạn!,Thank you!,Xiề xiê nỉ!,,,,lich-su
+16,不客气。,bú kè qì.,Không có gì.,You're welcome.,Pú khừa schì.,,,,lich-su
+17,对不起。,duì bù qǐ.,Xin lỗi.,I'm sorry.,Tuầy pu schỉ.,,,,lich-su
+18,没关系。,méi guān xi.,Không sao đâu.,It's okay.,Mấy quan xi.,,,,lich-su
+19,不好意思。,bù hǎo yì si.,"Ngại quá, làm phiền chút.",Excuse me.,Pù hảo ì xư.,,,,lich-su
+20,请进！,qǐng jìn!,Mời vào!,"Come in, please!",Schỉnh chìn!,,,,lich-su
+21,请坐！,qǐng zuò!,Mời ngồi!,Please sit down!,Schỉnh zùa!,,,,lich-su
+22,请等一下。,qǐng děng yí xià.,Xin vui lòng đợi một chút.,Please wait a moment.,Schính tẩng í xià.,,,,lich-su
+23,你叫什么名字？,nǐ jiào shén me míng zi?,Bạn tên là gì?,What's your name?,Nỉ chèo sấn mơ mính zư?,,,,gioi-thieu
+24,我叫小明。,wǒ jiào xiǎo míng.,Tôi tên là Tiểu Minh.,My name is Xiaoming.,Ủa chèo xẻo mính.,,,,gioi-thieu
+25,很高兴认识你！,hěn gāo xìng rèn shi nǐ!,Rất vui được làm quen với bạn!,Nice to meet you!,Hẩn cao xình rần sư nỉ!,,,,gioi-thieu
+26,你是哪国人？,nǐ shì nǎ guó rén?,Bạn là người nước nào?,Where are you from?,Nỉ sừ nả cúa rấn?,,,,gioi-thieu
+27,我是越南人。,wǒ shì yuè nán rén.,Tôi là người Việt Nam.,I'm Vietnamese.,Ủa sừ duề nán rấn.,,,,gioi-thieu
+28,你多大了？,nǐ duō dà le?,Bạn bao nhiêu tuổi rồi?,How old are you?,Nỉ tua tà lơ?,,,,gioi-thieu
+29,我二十岁。,wǒ èr shí suì.,Tôi hai mươi tuổi.,I'm twenty years old.,Ủa ờ sứ xuầy.,,,,gioi-thieu
+30,你住在哪儿？,nǐ zhù zài nǎr?,Bạn sống ở đâu?,Where do you live?,Nỉ trù zài nảr?,,,,gioi-thieu
+31,你做什么工作？,nǐ zuò shén me gōng zuò?,Bạn làm nghề gì?,What do you do?,Nỉ zùa sấn mơ cung zùa?,,,,gioi-thieu
+32,我是学生。,wǒ shì xué sheng.,Tôi là học sinh.,I'm a student.,Ủa sừ xuế sâng.,,,,gioi-thieu
+33,我们是朋友。,wǒ men shì péng you.,Chúng ta là bạn bè.,We are friends.,Ủa mân sừ pấng dâu.,,,,gioi-thieu
+34,你的电话是多少？,nǐ de diàn huà shì duō shǎo?,Số điện thoại của bạn là bao nhiêu?,What's your phone number?,Nỉ tơ tiền hoà sừ tua sảo?,,,,gioi-thieu
+35,你会说中文吗？,nǐ huì shuō zhōng wén ma?,Bạn biết nói tiếng Trung không?,Can you speak Chinese?,Nỉ huầy sua trung uấn ma?,,,,hoc-tieng
+36,我会说一点儿。,wǒ huì shuō yì diǎnr.,Tôi biết nói một chút.,I can speak a little.,Ủa huầy sua ì tiểnr.,,,,hoc-tieng
+37,我听不懂。,wǒ tīng bù dǒng.,Tôi nghe không hiểu.,I don't understand (what I hear).,Ủa thinh pù tủng.,,,,hoc-tieng
+38,我明白了。,wǒ míng bái le.,Tôi hiểu rồi.,I see. / I understand.,Ủa mính pái lơ.,,,,hoc-tieng
+39,请再说一遍。,qǐng zài shuō yí biàn.,Xin nói lại lần nữa.,Please say it again.,Schỉnh zài sua í piền.,,,,hoc-tieng
+40,请说慢一点。,qǐng shuō màn yì diǎn.,Xin nói chậm một chút.,Please speak more slowly.,Schỉnh sua màn ì tiển.,,,,hoc-tieng
+41,这个中文怎么说？,zhè ge zhōng wén zěn me shuō?,Cái này tiếng Trung nói thế nào?,How do you say this in Chinese?,Trừa cơ trung uấn zẩn mơ sua?,,,,hoc-tieng
+42,是的。,shì de.,"Vâng, phải.",Yes.,Sừ tơ.,,,,tra-loi
+43,不是。,bú shì.,Không phải.,"No, it isn't.",Pú sừ.,,,,tra-loi
+44,对！,duì!,Đúng rồi!,Right!,Tuầy!,,,,tra-loi
+45,好的。,hǎo de.,"Được rồi, OK.",Okay.,Hảo tơ.,,,,tra-loi
+46,没问题。,méi wèn tí.,Không vấn đề gì.,No problem.,Mấy uần thí.,,,,tra-loi
+47,当然！,dāng rán!,Đương nhiên!,Of course!,Tang rán!,,,,tra-loi
+48,我知道了。,wǒ zhī dào le.,Tôi biết rồi.,Got it.,Ủa trư tào lơ.,,,,tra-loi
+49,我不知道。,wǒ bù zhī dào.,Tôi không biết.,I don't know.,Ủa pù trư tào.,,,,tra-loi
+50,真的吗？,zhēn de ma?,Thật không?,Really?,Trân tơ ma?,,,,tra-loi
+51,太好了！,tài hǎo le!,Tuyệt quá!,Great!,Thài hảo lơ!,,,,tra-loi
+52,加油！,jiā yóu!,Cố lên!,Go for it! / You can do it!,Chia dấu!,,,,tra-loi
+53,这是什么？,zhè shì shén me?,Đây là cái gì?,What is this?,Trừa sừ sấn mơ?,,,,cau-hoi
+54,那是什么？,nà shì shén me?,Kia là cái gì?,What is that?,Nà sừ sấn mơ?,,,,cau-hoi
+55,怎么了？,zěn me le?,Sao vậy?,What's wrong?,Zẩn mơ lơ?,,,,cau-hoi
+56,为什么？,wèi shén me?,Tại sao?,Why?,Uầy sấn mơ?,,,,cau-hoi
+57,怎么办？,zěn me bàn?,Làm sao bây giờ?,What should we do?,Zẩn mơ pàn?,,,,cau-hoi
+58,你在哪儿？,nǐ zài nǎr?,Bạn đang ở đâu?,Where are you?,Nỉ zài nảr?,,,,cau-hoi
+59,你去哪儿？,nǐ qù nǎr?,Bạn đi đâu đấy?,Where are you going?,Nỉ schuỳ nảr?,,,,cau-hoi
+60,你有时间吗？,nǐ yǒu shí jiān ma?,Bạn có thời gian không?,Do you have time?,Ní dẩu sứ chiên ma?,,,,cau-hoi
+61,洗手间在哪儿？,xǐ shǒu jiān zài nǎr?,Nhà vệ sinh ở đâu?,Where is the restroom?,Xí sẩu chiên zài nảr?,,,,cau-hoi
+62,现在几点？,xiàn zài jǐ diǎn?,Bây giờ là mấy giờ?,What time is it now?,Xiền zài chí tiển?,,,,thoi-gian
+63,今天星期几？,jīn tiān xīng qī jǐ?,Hôm nay là thứ mấy?,What day is it today?,Chin thiên xinh schi chỉ?,,,,thoi-gian
+64,今天几号？,jīn tiān jǐ hào?,Hôm nay là ngày mấy?,What's the date today?,Chin thiên chỉ hào?,,,,thoi-gian
+65,今天很冷。,jīn tiān hěn lěng.,Hôm nay rất lạnh.,It's very cold today.,Chin thiên hấn lẩng.,,,,thoi-gian
+66,今天很热。,jīn tiān hěn rè.,Hôm nay rất nóng.,It's very hot today.,Chin thiên hẩn rừa.,,,,thoi-gian
+67,下雨了。,xià yǔ le.,Trời mưa rồi.,It's raining.,Xià duỷ lơ.,,,,thoi-gian
+68,我饿了。,wǒ è le.,Tôi đói rồi.,I'm hungry.,Ủa ừa lơ.,,,,cam-giac
+69,我渴了。,wǒ kě le.,Tôi khát rồi.,I'm thirsty.,Ủa khửa lơ.,,,,cam-giac
+70,我累了。,wǒ lèi le.,Tôi mệt rồi.,I'm tired.,Ủa lầy lơ.,,,,cam-giac
+71,我困了。,wǒ kùn le.,Tôi buồn ngủ rồi.,I'm sleepy.,Ủa khuần lơ.,,,,cam-giac
+72,我很忙。,wǒ hěn máng.,Tôi rất bận.,I'm very busy.,Úa hẩn máng.,,,,cam-giac
+73,我不舒服。,wǒ bù shū fu.,Tôi thấy không khỏe.,I don't feel well.,Ủa pù su phu.,,,,cam-giac
+74,我生病了。,wǒ shēng bìng le.,Tôi bị ốm rồi.,I'm sick.,Ủa sâng pình lơ.,,,,cam-giac
+75,我喜欢你。,wǒ xǐ huan nǐ.,Tôi thích bạn.,I like you.,Úa xỉ hoan nỉ.,,,,cam-giac
+76,我爱你。,wǒ ài nǐ.,Anh yêu em. / Em yêu anh.,I love you.,Ủa ài nỉ.,,,,cam-giac
+77,我想你。,wǒ xiǎng nǐ.,Tôi nhớ bạn.,I miss you.,Úa xéng nỉ.,,,,cam-giac
+78,你吃饭了吗？,nǐ chī fàn le ma?,Bạn ăn cơm chưa?,Have you eaten?,Nỉ chư phàn lơ ma?,,,,an-uong
+79,我吃了。,wǒ chī le.,Tôi ăn rồi.,I've eaten.,Ủa chư lơ.,,,,an-uong
+80,好吃！,hǎo chī!,Ngon quá!,Delicious!,Hảo chư!,,,,an-uong
+81,我想喝水。,wǒ xiǎng hē shuǐ.,Tôi muốn uống nước.,I want to drink some water.,Úa xẻng hưa suẩy.,,,,an-uong
+82,请给我菜单。,qǐng gěi wǒ cài dān.,Cho tôi xem thực đơn.,"The menu, please.",Schính cấy ủa xài tan.,,,,an-uong
+83,买单！,mǎi dān!,Tính tiền!,"The bill, please!",Mải tan!,,,,an-uong
+84,多少钱？,duō shǎo qián?,Bao nhiêu tiền?,How much is it?,Tua sảo schién?,,,,mua-sam
+85,太贵了！,tài guì le!,Đắt quá!,Too expensive!,Thài cuầy lơ!,,,,mua-sam
+86,便宜一点吧。,pián yi yì diǎn ba.,Rẻ hơn chút đi.,Make it a bit cheaper.,Piến di ì tiển pa.,,,,mua-sam
+87,我要这个。,wǒ yào zhè ge.,Tôi lấy cái này.,I'll take this one.,Ủa dào trừa cơ.,,,,mua-sam
+88,我不要。,wǒ bú yào.,Tôi không lấy đâu.,I don't want it.,Ủa pú dào.,,,,mua-sam
+89,可以刷卡吗？,kě yǐ shuā kǎ ma?,Quẹt thẻ được không?,Can I pay by card?,Khứa dỉ soa khả ma?,,,,mua-sam
+90,我在家。,wǒ zài jiā.,Tôi đang ở nhà.,I'm at home.,Ủa zài chia.,,,,di-lai
+91,我们走吧。,wǒ men zǒu ba.,Chúng ta đi thôi.,Let's go.,Ủa mân zẩu pa.,,,,di-lai
+92,我去学校。,wǒ qù xué xiào.,Tôi đến trường.,I'm going to school.,Ủa schuỳ xuế xèo.,,,,di-lai
+93,我回家了。,wǒ huí jiā le.,Tôi về nhà đây.,I'm going home.,Ủa huấy chia lơ.,,,,di-lai
+94,等一下！,děng yí xià!,Đợi chút!,Wait!,Tẩng í xià!,,,,tinh-huong
+95,快点儿！,kuài diǎnr!,Nhanh lên!,Hurry up!,Khoài tiểnr!,,,,tinh-huong
+96,小心！,xiǎo xīn!,Cẩn thận!,Be careful!,Xẻo xin!,,,,tinh-huong
+97,帮帮我！,bāng bang wǒ!,Giúp tôi với!,Help me!,Pang pang ủa!,,,,tinh-huong
+98,祝你生日快乐！,zhù nǐ shēng rì kuài lè!,Chúc mừng sinh nhật bạn!,Happy birthday!,Trù nỉ sâng rư khoài lừa!,,,,chuc-mung
+99,新年快乐！,xīn nián kuài lè!,Chúc mừng năm mới!,Happy New Year!,Xin niến khoài lừa!,,,,chuc-mung
+100,一路平安！,yí lù píng ān!,Thượng lộ bình an!,Have a safe trip!,Í lù pính an!,,,,chuc-mung

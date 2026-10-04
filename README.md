@@ -76,6 +76,7 @@ Học trên: Anki máy tính (Windows/macOS/Linux), AnkiDroid (Android), AnkiMob
 | Thư mục | Tên | Số câu | Ghi chú |
 |---|---|---|---|
 | [`001-chao-hoi-co-ban`](decks/001-chao-hoi-co-ban/) | Chào hỏi cơ bản | 10 | Bộ mẫu. Video là video test |
+| [`002-100-cau-co-ban`](decks/002-100-cau-co-ban/) | 100 câu cơ bản | 100 | Câu thông dụng nhất cho người mới: chào hỏi, giới thiệu, hỏi đáp, ăn uống, mua sắm… |
 
 ---
 
@@ -224,7 +225,7 @@ Sau đó sửa cột `Pinyin` nếu sai — câu nào đã có pinyin thì công
 | `Pinyin` | | Pinyin có dấu thanh. Trống → tự sinh | `jǐ diǎn le?` |
 | `Vietnamese` | **✓** | Nghĩa tiếng Việt (câu hỏi ở mặt trước) | `Mấy giờ rồi?` |
 | `English` | | Nghĩa tiếng Anh (hiện ở cả hai mặt) | `What time is it?` |
-| `Phonetic VI` | | Đọc bồi kiểu Việt | `Chí tiến lơ?` |
+| `Phonetic VI` | | Đọc bồi kiểu Việt, chỉ để tham khảo (xem quy ước bên dưới) | `Chí tiến lơ?` |
 | `Audio` | | Tên file audio trong `media/`. Trống → tự sinh TTS | `cau7.mp3` |
 | `Video` | | Tên file video trong `media/` | `cau7.mp4` |
 | `Image` | | Tên file ảnh trong `media/` | `dong-ho.jpg` |
@@ -235,6 +236,17 @@ Quy tắc:
 - **Không được trùng câu** `Chinese` trong cùng một bộ.
 - `Chinese` nên ngắn gọn, chỉ chứa đúng thứ người học phải gõ. Không chèn HTML, chú thích, dấu ngoặc giải thích.
 - Mỗi thẻ tự có thêm tag là tên thư mục bộ từ (vd `002-mua-sam`), tiện lọc trong Anki.
+
+**Quy ước đọc bồi** (`Phonetic VI`) — gần đúng, chỉ để tham khảo, luôn ưu tiên nghe audio:
+
+| Pinyin | Ghi | | Pinyin | Ghi |
+|---|---|---|---|---|
+| thanh 1 / 2 / 3 / 4 | không dấu / sắc / hỏi / huyền | | j / q / x | ch / sch / x |
+| b / p | p / p | | zh / ch / sh / r | tr / ch / s / r |
+| d / t | t / th | | z / c / s | z / x / x |
+| g / k / h | c / kh / h | | f | ph |
+
+Ghi theo cách đọc thật (có biến điệu): `你好` → `Ní hảo`, `一路平安` → `Í lù pính an`.
 
 ---
 
