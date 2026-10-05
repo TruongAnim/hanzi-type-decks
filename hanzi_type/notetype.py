@@ -10,7 +10,8 @@ MODEL_ID = 1228803704
 MODEL_NAME = "Hanzi Type"
 
 # Thứ tự field trong Anki. Chinese đứng đầu: Anki dùng field đầu tiên để phát hiện câu trùng.
-FIELDS = ["Chinese", "Pinyin", "Vietnamese", "English", "Phonetic VI", "Audio", "Video", "Image", "No"]
+FIELDS = ["Chinese", "Pinyin", "Vietnamese", "English", "Phonetic VI", "Explanation",
+          "Audio", "Video", "Image", "No"]
 
 TEMPLATES = Path(__file__).parent / "templates"
 

@@ -1,101 +1,576 @@
-No,Chinese,Pinyin,Vietnamese,English,Phonetic VI,Audio,Video,Image,Tags
-1,你好！,nǐ hǎo!,Xin chào!,Hello!,Ní hảo!,,,,chao-hoi
-2,您好！,nín hǎo!,"Xin chào (lịch sự, với người lớn)!",Hello! (polite),Nín hảo!,,,,chao-hoi
-3,早上好！,zǎo shang hǎo!,Chào buổi sáng!,Good morning!,Zảo sang hảo!,,,,chao-hoi
-4,晚上好！,wǎn shang hǎo!,Chào buổi tối!,Good evening!,Oản sang hảo!,,,,chao-hoi
-5,晚安！,wǎn ān!,Chúc ngủ ngon!,Good night!,Oản an!,,,,chao-hoi
-6,再见！,zài jiàn!,Tạm biệt!,Goodbye!,Zài chiền!,,,,chao-hoi
-7,明天见！,míng tiān jiàn!,Mai gặp lại nhé!,See you tomorrow!,Mính thiên chiền!,,,,chao-hoi
-8,一会儿见！,yí huìr jiàn!,Lát nữa gặp nhé!,See you later!,Í huầy chiền!,,,,chao-hoi
-9,欢迎！,huān yíng!,Chào mừng!,Welcome!,Hoanính!,,,,chao-hoi
-10,你好吗？,nǐ hǎo ma?,Bạn khỏe không?,How are you?,Ní hảo ma?,,,,chao-hoi
-11,我很好。,wǒ hěn hǎo.,Tôi rất khỏe.,I'm fine.,Úa hấn hảo.,,,,chao-hoi
-12,你呢？,nǐ ne?,Còn bạn thì sao?,And you?,Nỉ nơ?,,,,chao-hoi
-13,我也很好。,wǒ yě hěn hǎo.,Tôi cũng khỏe.,I'm fine too.,Úa dế hấn hảo.,,,,chao-hoi
-14,谢谢！,xiè xie!,Cảm ơn!,Thanks!,Xiề xiê!,,,,lich-su
-15,谢谢你！,xiè xie nǐ!,Cảm ơn bạn!,Thank you!,Xiề xiê nỉ!,,,,lich-su
-16,不客气。,bú kè qì.,Không có gì.,You're welcome.,Pú khừa schì.,,,,lich-su
-17,对不起。,duì bù qǐ.,Xin lỗi.,I'm sorry.,Tuầy pu schỉ.,,,,lich-su
-18,没关系。,méi guān xi.,Không sao đâu.,It's okay.,Mấy quan xi.,,,,lich-su
-19,不好意思。,bù hǎo yì si.,"Ngại quá, làm phiền chút.",Excuse me.,Pù hảo ì xư.,,,,lich-su
-20,请进！,qǐng jìn!,Mời vào!,"Come in, please!",Schỉnh chìn!,,,,lich-su
-21,请坐！,qǐng zuò!,Mời ngồi!,Please sit down!,Schỉnh zùa!,,,,lich-su
-22,请等一下。,qǐng děng yí xià.,Xin vui lòng đợi một chút.,Please wait a moment.,Schính tẩng í xià.,,,,lich-su
-23,你叫什么名字？,nǐ jiào shén me míng zi?,Bạn tên là gì?,What's your name?,Nỉ chèo sấn mơ mính zư?,,,,gioi-thieu
-24,我叫小明。,wǒ jiào xiǎo míng.,Tôi tên là Tiểu Minh.,My name is Xiaoming.,Ủa chèo xẻo mính.,,,,gioi-thieu
-25,很高兴认识你！,hěn gāo xìng rèn shi nǐ!,Rất vui được làm quen với bạn!,Nice to meet you!,Hẩn cao xình rần sư nỉ!,,,,gioi-thieu
-26,你是哪国人？,nǐ shì nǎ guó rén?,Bạn là người nước nào?,Where are you from?,Nỉ sừ nả cúa rấn?,,,,gioi-thieu
-27,我是越南人。,wǒ shì yuè nán rén.,Tôi là người Việt Nam.,I'm Vietnamese.,Ủa sừ duề nán rấn.,,,,gioi-thieu
-28,你多大了？,nǐ duō dà le?,Bạn bao nhiêu tuổi rồi?,How old are you?,Nỉ tua tà lơ?,,,,gioi-thieu
-29,我二十岁。,wǒ èr shí suì.,Tôi hai mươi tuổi.,I'm twenty years old.,Ủa ờ sứ xuầy.,,,,gioi-thieu
-30,你住在哪儿？,nǐ zhù zài nǎr?,Bạn sống ở đâu?,Where do you live?,Nỉ trù zài nảr?,,,,gioi-thieu
-31,你做什么工作？,nǐ zuò shén me gōng zuò?,Bạn làm nghề gì?,What do you do?,Nỉ zùa sấn mơ cung zùa?,,,,gioi-thieu
-32,我是学生。,wǒ shì xué sheng.,Tôi là học sinh.,I'm a student.,Ủa sừ xuế sâng.,,,,gioi-thieu
-33,我们是朋友。,wǒ men shì péng you.,Chúng ta là bạn bè.,We are friends.,Ủa mân sừ pấng dâu.,,,,gioi-thieu
-34,你的电话是多少？,nǐ de diàn huà shì duō shǎo?,Số điện thoại của bạn là bao nhiêu?,What's your phone number?,Nỉ tơ tiền hoà sừ tua sảo?,,,,gioi-thieu
-35,你会说中文吗？,nǐ huì shuō zhōng wén ma?,Bạn biết nói tiếng Trung không?,Can you speak Chinese?,Nỉ huầy sua trung uấn ma?,,,,hoc-tieng
-36,我会说一点儿。,wǒ huì shuō yì diǎnr.,Tôi biết nói một chút.,I can speak a little.,Ủa huầy sua ì tiểnr.,,,,hoc-tieng
-37,我听不懂。,wǒ tīng bù dǒng.,Tôi nghe không hiểu.,I don't understand (what I hear).,Ủa thinh pù tủng.,,,,hoc-tieng
-38,我明白了。,wǒ míng bái le.,Tôi hiểu rồi.,I see. / I understand.,Ủa mính pái lơ.,,,,hoc-tieng
-39,请再说一遍。,qǐng zài shuō yí biàn.,Xin nói lại lần nữa.,Please say it again.,Schỉnh zài sua í piền.,,,,hoc-tieng
-40,请说慢一点。,qǐng shuō màn yì diǎn.,Xin nói chậm một chút.,Please speak more slowly.,Schỉnh sua màn ì tiển.,,,,hoc-tieng
-41,这个中文怎么说？,zhè ge zhōng wén zěn me shuō?,Cái này tiếng Trung nói thế nào?,How do you say this in Chinese?,Trừa cơ trung uấn zẩn mơ sua?,,,,hoc-tieng
-42,是的。,shì de.,"Vâng, phải.",Yes.,Sừ tơ.,,,,tra-loi
-43,不是。,bú shì.,Không phải.,"No, it isn't.",Pú sừ.,,,,tra-loi
-44,对！,duì!,Đúng rồi!,Right!,Tuầy!,,,,tra-loi
-45,好的。,hǎo de.,"Được rồi, OK.",Okay.,Hảo tơ.,,,,tra-loi
-46,没问题。,méi wèn tí.,Không vấn đề gì.,No problem.,Mấy uần thí.,,,,tra-loi
-47,当然！,dāng rán!,Đương nhiên!,Of course!,Tang rán!,,,,tra-loi
-48,我知道了。,wǒ zhī dào le.,Tôi biết rồi.,Got it.,Ủa trư tào lơ.,,,,tra-loi
-49,我不知道。,wǒ bù zhī dào.,Tôi không biết.,I don't know.,Ủa pù trư tào.,,,,tra-loi
-50,真的吗？,zhēn de ma?,Thật không?,Really?,Trân tơ ma?,,,,tra-loi
-51,太好了！,tài hǎo le!,Tuyệt quá!,Great!,Thài hảo lơ!,,,,tra-loi
-52,加油！,jiā yóu!,Cố lên!,Go for it! / You can do it!,Chia dấu!,,,,tra-loi
-53,这是什么？,zhè shì shén me?,Đây là cái gì?,What is this?,Trừa sừ sấn mơ?,,,,cau-hoi
-54,那是什么？,nà shì shén me?,Kia là cái gì?,What is that?,Nà sừ sấn mơ?,,,,cau-hoi
-55,怎么了？,zěn me le?,Sao vậy?,What's wrong?,Zẩn mơ lơ?,,,,cau-hoi
-56,为什么？,wèi shén me?,Tại sao?,Why?,Uầy sấn mơ?,,,,cau-hoi
-57,怎么办？,zěn me bàn?,Làm sao bây giờ?,What should we do?,Zẩn mơ pàn?,,,,cau-hoi
-58,你在哪儿？,nǐ zài nǎr?,Bạn đang ở đâu?,Where are you?,Nỉ zài nảr?,,,,cau-hoi
-59,你去哪儿？,nǐ qù nǎr?,Bạn đi đâu đấy?,Where are you going?,Nỉ schuỳ nảr?,,,,cau-hoi
-60,你有时间吗？,nǐ yǒu shí jiān ma?,Bạn có thời gian không?,Do you have time?,Ní dẩu sứ chiên ma?,,,,cau-hoi
-61,洗手间在哪儿？,xǐ shǒu jiān zài nǎr?,Nhà vệ sinh ở đâu?,Where is the restroom?,Xí sẩu chiên zài nảr?,,,,cau-hoi
-62,现在几点？,xiàn zài jǐ diǎn?,Bây giờ là mấy giờ?,What time is it now?,Xiền zài chí tiển?,,,,thoi-gian
-63,今天星期几？,jīn tiān xīng qī jǐ?,Hôm nay là thứ mấy?,What day is it today?,Chin thiên xinh schi chỉ?,,,,thoi-gian
-64,今天几号？,jīn tiān jǐ hào?,Hôm nay là ngày mấy?,What's the date today?,Chin thiên chỉ hào?,,,,thoi-gian
-65,今天很冷。,jīn tiān hěn lěng.,Hôm nay rất lạnh.,It's very cold today.,Chin thiên hấn lẩng.,,,,thoi-gian
-66,今天很热。,jīn tiān hěn rè.,Hôm nay rất nóng.,It's very hot today.,Chin thiên hẩn rừa.,,,,thoi-gian
-67,下雨了。,xià yǔ le.,Trời mưa rồi.,It's raining.,Xià duỷ lơ.,,,,thoi-gian
-68,我饿了。,wǒ è le.,Tôi đói rồi.,I'm hungry.,Ủa ừa lơ.,,,,cam-giac
-69,我渴了。,wǒ kě le.,Tôi khát rồi.,I'm thirsty.,Ủa khửa lơ.,,,,cam-giac
-70,我累了。,wǒ lèi le.,Tôi mệt rồi.,I'm tired.,Ủa lầy lơ.,,,,cam-giac
-71,我困了。,wǒ kùn le.,Tôi buồn ngủ rồi.,I'm sleepy.,Ủa khuần lơ.,,,,cam-giac
-72,我很忙。,wǒ hěn máng.,Tôi rất bận.,I'm very busy.,Úa hẩn máng.,,,,cam-giac
-73,我不舒服。,wǒ bù shū fu.,Tôi thấy không khỏe.,I don't feel well.,Ủa pù su phu.,,,,cam-giac
-74,我生病了。,wǒ shēng bìng le.,Tôi bị ốm rồi.,I'm sick.,Ủa sâng pình lơ.,,,,cam-giac
-75,我喜欢你。,wǒ xǐ huan nǐ.,Tôi thích bạn.,I like you.,Úa xỉ hoan nỉ.,,,,cam-giac
-76,我爱你。,wǒ ài nǐ.,Anh yêu em. / Em yêu anh.,I love you.,Ủa ài nỉ.,,,,cam-giac
-77,我想你。,wǒ xiǎng nǐ.,Tôi nhớ bạn.,I miss you.,Úa xéng nỉ.,,,,cam-giac
-78,你吃饭了吗？,nǐ chī fàn le ma?,Bạn ăn cơm chưa?,Have you eaten?,Nỉ chư phàn lơ ma?,,,,an-uong
-79,我吃了。,wǒ chī le.,Tôi ăn rồi.,I've eaten.,Ủa chư lơ.,,,,an-uong
-80,好吃！,hǎo chī!,Ngon quá!,Delicious!,Hảo chư!,,,,an-uong
-81,我想喝水。,wǒ xiǎng hē shuǐ.,Tôi muốn uống nước.,I want to drink some water.,Úa xẻng hưa suẩy.,,,,an-uong
-82,请给我菜单。,qǐng gěi wǒ cài dān.,Cho tôi xem thực đơn.,"The menu, please.",Schính cấy ủa xài tan.,,,,an-uong
-83,买单！,mǎi dān!,Tính tiền!,"The bill, please!",Mải tan!,,,,an-uong
-84,多少钱？,duō shǎo qián?,Bao nhiêu tiền?,How much is it?,Tua sảo schién?,,,,mua-sam
-85,太贵了！,tài guì le!,Đắt quá!,Too expensive!,Thài cuầy lơ!,,,,mua-sam
-86,便宜一点吧。,pián yi yì diǎn ba.,Rẻ hơn chút đi.,Make it a bit cheaper.,Piến di ì tiển pa.,,,,mua-sam
-87,我要这个。,wǒ yào zhè ge.,Tôi lấy cái này.,I'll take this one.,Ủa dào trừa cơ.,,,,mua-sam
-88,我不要。,wǒ bú yào.,Tôi không lấy đâu.,I don't want it.,Ủa pú dào.,,,,mua-sam
-89,可以刷卡吗？,kě yǐ shuā kǎ ma?,Quẹt thẻ được không?,Can I pay by card?,Khứa dỉ soa khả ma?,,,,mua-sam
-90,我在家。,wǒ zài jiā.,Tôi đang ở nhà.,I'm at home.,Ủa zài chia.,,,,di-lai
-91,我们走吧。,wǒ men zǒu ba.,Chúng ta đi thôi.,Let's go.,Ủa mân zẩu pa.,,,,di-lai
-92,我去学校。,wǒ qù xué xiào.,Tôi đến trường.,I'm going to school.,Ủa schuỳ xuế xèo.,,,,di-lai
-93,我回家了。,wǒ huí jiā le.,Tôi về nhà đây.,I'm going home.,Ủa huấy chia lơ.,,,,di-lai
-94,等一下！,děng yí xià!,Đợi chút!,Wait!,Tẩng í xià!,,,,tinh-huong
-95,快点儿！,kuài diǎnr!,Nhanh lên!,Hurry up!,Khoài tiểnr!,,,,tinh-huong
-96,小心！,xiǎo xīn!,Cẩn thận!,Be careful!,Xẻo xin!,,,,tinh-huong
-97,帮帮我！,bāng bang wǒ!,Giúp tôi với!,Help me!,Pang pang ủa!,,,,tinh-huong
-98,祝你生日快乐！,zhù nǐ shēng rì kuài lè!,Chúc mừng sinh nhật bạn!,Happy birthday!,Trù nỉ sâng rư khoài lừa!,,,,chuc-mung
-99,新年快乐！,xīn nián kuài lè!,Chúc mừng năm mới!,Happy New Year!,Xin niến khoài lừa!,,,,chuc-mung
-100,一路平安！,yí lù píng ān!,Thượng lộ bình an!,Have a safe trip!,Í lù pính an!,,,,chuc-mung
+No,Chinese,Pinyin,Vietnamese,English,Phonetic VI,Explanation,Audio,Video,Image,Tags
+1,你好！,nǐ hǎo!,Xin chào!,Hello!,Ní hảo!,"你 (nǐ · NHĨ): bạn
+好 (hǎo · HẢO): tốt
+= Xin chào! (nghĩa đen: bạn tốt)
+> Câu chào dùng mọi lúc, mọi nơi. Chào nhiều người: 大家好 (chào mọi người).
+* 好 = 女 (phụ nữ) + 子 (con): có mẹ có con là ""tốt"". Chào ai là chúc người đó ""tốt"".",,,,chao-hoi
+2,您好！,nín hǎo!,"Xin chào (lịch sự, với người lớn)!",Hello! (polite),Nín hảo!,"您 (nín · NÂM): ngài, ông, bà (kính trọng)
+好 (hǎo · HẢO): tốt
+= Xin chào (lịch sự)!
+> Dùng với người lớn tuổi, thầy cô, cấp trên, khách hàng.
+* 您 = 你 (bạn) + 心 (trái tim): đặt ""bạn"" vào trong tim là cách gọi kính trọng.",,,,chao-hoi
+3,早上好！,zǎo shang hǎo!,Chào buổi sáng!,Good morning!,Zảo sang hảo!,"早上 (zǎoshang · TẢO THƯỢNG): buổi sáng
+好 (hǎo · HẢO): tốt
+= Chào buổi sáng!
+> Nói gọn: 早！ (zǎo!) — bạn bè, đồng nghiệp hay dùng.
+* 早 = 日 (mặt trời) nhô lên trên 十: mặt trời vừa lên là ""sớm"".",,,,chao-hoi
+4,晚上好！,wǎn shang hǎo!,Chào buổi tối!,Good evening!,Oản sang hảo!,"晚上 (wǎnshang · VÃN THƯỢNG): buổi tối
+好 (hǎo · HẢO): tốt
+= Chào buổi tối!
+! Gặp nhau buổi tối thì nói 晚上好. Chia tay đi ngủ thì nói 晚安.
+* 晚 là ""vãn"" trong ""vãn niên"" (tuổi xế chiều): muộn, tối.",,,,chao-hoi
+5,晚安！,wǎn ān!,Chúc ngủ ngon!,Good night!,Oản an!,"晚 (wǎn · VÃN): tối, muộn
+安 (ān · AN): bình an
+= Chúc ngủ ngon!
+> Chỉ nói khi đi ngủ hoặc chào nhau lúc khuya.
+* ""Vãn an"" = buổi tối bình an. 安 = 宀 (mái nhà) + 女 (phụ nữ): trong nhà có người phụ nữ là bình an.",,,,chao-hoi
+6,再见！,zài jiàn!,Tạm biệt!,Goodbye!,Zài chiền!,"再 (zài · TÁI): lại, lần nữa
+见 (jiàn · KIẾN): gặp
+= Tạm biệt! (nghĩa đen: gặp lại)
+> Thân mật hơn: 拜拜 (bái bai), mượn từ ""bye bye"".
+* ""Tái kiến"" giống ""tái ngộ"" trong tiếng Việt: hẹn lần sau gặp lại.",,,,chao-hoi
+7,明天见！,míng tiān jiàn!,Mai gặp lại nhé!,See you tomorrow!,Mính thiên chiền!,"明天 (míngtiān · MINH THIÊN): ngày mai
+见 (jiàn · KIẾN): gặp
+= Mai gặp lại nhé!
++ thời gian + 见: 下次见 (lần sau gặp), 周末见 (cuối tuần gặp)
+* 明 = 日 (mặt trời) + 月 (mặt trăng): đêm qua đi, trời sáng là sang ""ngày mai"".",,,,chao-hoi
+8,一会儿见！,yí huìr jiàn!,Lát nữa gặp nhé!,See you later!,Í huầy chiền!,"一会儿 (yíhuìr · NHẤT HỘI NHI): một lát, chốc nữa
+见 (jiàn · KIẾN): gặp
+= Lát nữa gặp nhé!
+> Dùng khi sắp gặp lại trong cùng ngày, vài phút hay vài tiếng nữa.
+* 儿 đọc dính vào chữ trước thành ""huìr"": giọng Bắc Kinh ""uốn lưỡi"" đặc trưng.",,,,chao-hoi
+9,欢迎！,huān yíng!,Chào mừng!,Welcome!,Hoanính!,"欢迎 (huānyíng · HOAN NGHÊNH): chào mừng
+= Chào mừng!
+> Hay nghe ở cửa hàng: 欢迎光临！ (Hoan nghênh quý khách!)
+* Chính là ""hoan nghênh"" trong tiếng Việt, đọc cũng na ná.",,,,chao-hoi
+10,你好吗？,nǐ hǎo ma?,Bạn khỏe không?,How are you?,Ní hảo ma?,"你好 (nǐ hǎo): bạn tốt, bạn khỏe
+吗 (ma · MA): ...không? (từ để hỏi)
+= Bạn khỏe không?
++ câu khẳng định + 吗 = câu hỏi: 你忙吗？ (Bạn bận không?)
+! Thực tế người Trung ít hỏi câu này. Bạn bè hay hỏi 最近怎么样？ (Dạo này thế nào?)",,,,chao-hoi
+11,我很好。,wǒ hěn hǎo.,Tôi rất khỏe.,I'm fine.,Úa hấn hảo.,"我 (wǒ · NGÃ): tôi
+很 (hěn · NGẬN): rất
+好 (hǎo · HẢO): tốt, khỏe
+= Tôi rất khỏe.
+! 很 ở đây chủ yếu cho câu tròn tiếng, không nhấn mạnh ""rất"" lắm.
+* 我 là ""ngã"" trong ""bản ngã"".",,,,chao-hoi
+12,你呢？,nǐ ne?,Còn bạn thì sao?,And you?,Nỉ nơ?,"你 (nǐ · NHĨ): bạn
+呢 (ne · NI): còn... thì sao?
+= Còn bạn thì sao?
+> Hỏi lại người kia đúng câu mình vừa được hỏi: 我很好，你呢？
++ danh từ + 呢？: 我的书呢？ (Sách của tôi đâu?)",,,,chao-hoi
+13,我也很好。,wǒ yě hěn hǎo.,Tôi cũng khỏe.,I'm fine too.,Úa dế hấn hảo.,"我 (wǒ · NGÃ): tôi
+也 (yě · DÃ): cũng
+很好 (hěn hǎo): rất khỏe
+= Tôi cũng khỏe.
++ 也 đứng trước động từ/tính từ: 我也是 (tôi cũng vậy), 我也去 (tôi cũng đi)
+> Đáp lại sau câu 你呢？",,,,chao-hoi
+14,谢谢！,xiè xie!,Cảm ơn!,Thanks!,Xiề xiê!,"谢 (xiè · TẠ): cảm ơn
+= Cảm ơn!
+> Đáp lại: 不客气 hoặc 不谢.
+* ""Tạ"" như ""cảm tạ"", ""đa tạ"". Nói hai lần 谢谢 cho mềm mại.",,,,lich-su
+15,谢谢你！,xiè xie nǐ!,Cảm ơn bạn!,Thank you!,Xiề xiê nỉ!,"谢谢 (xièxie · TẠ TẠ): cảm ơn
+你 (nǐ · NHĨ): bạn
+= Cảm ơn bạn!
+> Cảm ơn rất nhiều: 非常感谢 (fēicháng gǎnxiè, ""phi thường cảm tạ"").
+* 谢 = 讠 (lời nói) + 射 (bắn): ""bắn"" lời cảm ơn tới người ta.",,,,lich-su
+16,不客气。,bú kè qì.,Không có gì.,You're welcome.,Pú khừa schì.,"不 (bù · BẤT): không
+客气 (kèqi · KHÁCH KHÍ): khách sáo
+= Không có gì. (nghĩa đen: đừng khách sáo)
+> Câu đáp chuẩn khi được cảm ơn.
+* ""Bất khách khí"" chính là ""đừng khách khí"" mà người Việt vẫn nói.",,,,lich-su
+17,对不起。,duì bù qǐ.,Xin lỗi.,I'm sorry.,Tuầy pu schỉ.,"对 (duì · ĐỐI): đối mặt
+不起 (bu qǐ · BẤT KHỞI): không nổi
+= Xin lỗi.
+> Đáp lại: 没关系. Lỗi nhẹ như làm phiền thì dùng 不好意思.
+* ""Đối bất khởi"" = không dám đối mặt, vì thấy mình có lỗi.",,,,lich-su
+18,没关系。,méi guān xi.,Không sao đâu.,It's okay.,Mấy quan xi.,"没 (méi · MỘT): không có
+关系 (guānxi · QUAN HỆ): liên quan
+= Không sao đâu.
+> Câu đáp khi người khác xin lỗi (对不起).
+* ""Một quan hệ"" = chẳng liên quan gì → chuyện nhỏ, không sao.",,,,lich-su
+19,不好意思。,bù hǎo yì si.,"Ngại quá, làm phiền chút.",Excuse me.,Pù hảo ì xư.,"不好 (bù hǎo · BẤT HẢO): không tốt
+意思 (yìsi · Ý TƯ): ý tứ
+= Ngại quá, làm phiền chút.
+> Dùng khi làm phiền, nhờ vả, đến muộn hoặc gọi phục vụ. Nhẹ hơn 对不起.
+* ""Bất hảo ý tư"": thấy ngại, ""không tiện ý"" lắm.",,,,lich-su
+20,请进！,qǐng jìn!,Mời vào!,"Come in, please!",Schỉnh chìn!,"请 (qǐng · THỈNH): mời
+进 (jìn · TIẾN): vào
+= Mời vào!
++ 请 + động từ = lời mời lịch sự: 请坐 (mời ngồi), 请喝茶 (mời uống trà)
+* ""Thỉnh tiến"": mời tiến vào. ""Thỉnh"" như ""thỉnh cầu"".",,,,lich-su
+21,请坐！,qǐng zuò!,Mời ngồi!,Please sit down!,Schỉnh zùa!,"请 (qǐng · THỈNH): mời
+坐 (zuò · TỌA): ngồi
+= Mời ngồi!
+* ""Tọa"" như ""tọa đàm"", ""tọa thiền"". 坐 = hai chữ 人 (người) ngồi trên 土 (đất).",,,,lich-su
+22,请等一下。,qǐng děng yí xià.,Xin vui lòng đợi một chút.,Please wait a moment.,Schính tẩng í xià.,"请 (qǐng · THỈNH): xin
+等 (děng · ĐẲNG): đợi
+一下 (yíxià · NHẤT HẠ): một chút
+= Xin vui lòng đợi một chút.
+> Hay nghe khi gọi điện, ở quầy dịch vụ, nhà hàng.
++ động từ + 一下 = làm một chút: 看一下 (xem chút), 试一下 (thử chút)",,,,lich-su
+23,你叫什么名字？,nǐ jiào shén me míng zi?,Bạn tên là gì?,What's your name?,Nỉ chèo sấn mơ mính zư?,"你 (nǐ · NHĨ): bạn
+叫 (jiào · KHIẾU): gọi là, tên là
+什么 (shénme · THẬP MA): gì
+名字 (míngzi · DANH TỰ): tên
+= Bạn tên là gì?
+> Lịch sự hơn với người lớn: 您贵姓？ (Quý danh của ngài là gì?)
+* 名字 = ""danh tự"": chữ để gọi danh.",,,,gioi-thieu
+24,我叫小明。,wǒ jiào xiǎo míng.,Tôi tên là Tiểu Minh.,My name is Xiaoming.,Ủa chèo xẻo mính.,"我 (wǒ · NGÃ): tôi
+叫 (jiào · KHIẾU): tên là
+小明 (Xiǎo Míng · TIỂU MINH): Tiểu Minh (tên người)
+= Tôi tên là Tiểu Minh.
++ 我叫 + tên: thay bằng tên của bạn để tự giới thiệu.
+* 小明 là ""nhân vật quốc dân"" trong sách giáo khoa và truyện cười Trung Quốc, ai cũng biết.",,,,gioi-thieu
+25,很高兴认识你！,hěn gāo xìng rèn shi nǐ!,Rất vui được làm quen với bạn!,Nice to meet you!,Hẩn cao xình rần sư nỉ!,"很 (hěn · NGẬN): rất
+高兴 (gāoxìng · CAO HỨNG): vui
+认识 (rènshi · NHẬN THỨC): quen biết
+你 (nǐ · NHĨ): bạn
+= Rất vui được làm quen với bạn!
+> Nói sau khi hai người vừa giới thiệu tên.
+* ""Cao hứng"" đúng như tiếng Việt: vui, hứng khởi.",,,,gioi-thieu
+26,你是哪国人？,nǐ shì nǎ guó rén?,Bạn là người nước nào?,Where are you from?,Nỉ sừ nả cúa rấn?,"你 (nǐ · NHĨ): bạn
+是 (shì · THỊ): là
+哪 (nǎ · NA): nào
+国 (guó · QUỐC): nước
+人 (rén · NHÂN): người
+= Bạn là người nước nào?
++ Trả lời: 我是 + tên nước + 人: 我是越南人, 我是中国人
+* 国 = 囗 (biên giới) bao quanh 玉 (ngọc): đất nước là nơi cất giữ ngọc quý.",,,,gioi-thieu
+27,我是越南人。,wǒ shì yuè nán rén.,Tôi là người Việt Nam.,I'm Vietnamese.,Ủa sừ duề nán rấn.,"我 (wǒ · NGÃ): tôi
+是 (shì · THỊ): là
+越南 (Yuènán · VIỆT NAM): Việt Nam
+人 (rén · NHÂN): người
+= Tôi là người Việt Nam.
+> Tiếng Việt là 越南语 (Yuènán yǔ, ""Việt Nam ngữ"").
+* ""Việt Nam"" viết bằng chữ Hán chính là 越南, đọc Hán Việt y hệt!",,,,gioi-thieu
+28,你多大了？,nǐ duō dà le?,Bạn bao nhiêu tuổi rồi?,How old are you?,Nỉ tua tà lơ?,"你 (nǐ · NHĨ): bạn
+多大 (duō dà · ĐA ĐẠI): bao lớn
+了 (le · LIỄU): rồi
+= Bạn bao nhiêu tuổi rồi?
+> Hỏi người ngang tuổi. Hỏi trẻ em: 你几岁了？ Hỏi người già: 您多大年纪了？
+* ""Lớn bao nhiêu rồi?"" giống người Việt hỏi ""Năm nay bao lớn rồi?"".",,,,gioi-thieu
+29,我二十岁。,wǒ èr shí suì.,Tôi hai mươi tuổi.,I'm twenty years old.,Ủa ờ sứ xuầy.,"我 (wǒ · NGÃ): tôi
+二十 (èrshí · NHỊ THẬP): hai mươi
+岁 (suì · TUẾ): tuổi
+= Tôi hai mươi tuổi.
++ 我 + số + 岁: 我十八岁 (18 tuổi), 我三十岁 (30 tuổi)
+* ""Tuế"" như ""vạn tuế"" (muôn tuổi).",,,,gioi-thieu
+30,你住在哪儿？,nǐ zhù zài nǎr?,Bạn sống ở đâu?,Where do you live?,Nỉ trù zài nảr?,"你 (nǐ · NHĨ): bạn
+住 (zhù · TRÚ): ở, sống
+在 (zài · TẠI): tại
+哪儿 (nǎr): đâu
+= Bạn sống ở đâu?
++ Trả lời: 我住在 + nơi chốn: 我住在河内 (tôi sống ở Hà Nội)
+* ""Trú"" như ""cư trú"", ""tạm trú"".",,,,gioi-thieu
+31,你做什么工作？,nǐ zuò shén me gōng zuò?,Bạn làm nghề gì?,What do you do?,Nỉ zùa sấn mơ cung zùa?,"你 (nǐ · NHĨ): bạn
+做 (zuò · TỐ): làm
+什么 (shénme · THẬP MA): gì
+工作 (gōngzuò · CÔNG TÁC): công việc
+= Bạn làm nghề gì?
++ Trả lời: 我是 + nghề: 我是老师 (giáo viên), 我是医生 (bác sĩ)
+! 工作 đọc là ""công tác"" nhưng nghĩa là CÔNG VIỆC, không phải ""đi công tác"".",,,,gioi-thieu
+32,我是学生。,wǒ shì xué sheng.,Tôi là học sinh.,I'm a student.,Ủa sừ xuế sâng.,"我 (wǒ · NGÃ): tôi
+是 (shì · THỊ): là
+学生 (xuésheng · HỌC SINH): học sinh, sinh viên
+= Tôi là học sinh.
+> Dùng cho cả học sinh lẫn sinh viên đại học.
+* Hán Việt là ""học sinh"", giống y tiếng Việt.",,,,gioi-thieu
+33,我们是朋友。,wǒ men shì péng you.,Chúng ta là bạn bè.,We are friends.,Ủa mân sừ pấng dâu.,"我们 (wǒmen · NGÃ MÔN): chúng tôi, chúng ta
+是 (shì · THỊ): là
+朋友 (péngyou · BẰNG HỮU): bạn bè
+= Chúng ta là bạn bè.
++ 们 thêm sau đại từ = số nhiều: 你们 (các bạn), 他们 (họ)
+* ""Bằng hữu"" như trong truyện kiếm hiệp. 朋 = hai chữ 月 sát vai nhau, như hai người bạn.",,,,gioi-thieu
+34,你的电话是多少？,nǐ de diàn huà shì duō shǎo?,Số điện thoại của bạn là bao nhiêu?,What's your phone number?,Nỉ tơ tiền hoà sừ tua sảo?,"你的 (nǐ de): của bạn
+电话 (diànhuà · ĐIỆN THOẠI): điện thoại
+是 (shì · THỊ): là
+多少 (duōshao · ĐA THIỂU): bao nhiêu
+= Số điện thoại của bạn là bao nhiêu?
+! Hỏi số thì dùng 多少, không dùng 什么. Khi đọc số điện thoại, số 1 đọc là ""yāo"" cho khỏi nhầm với 7 (qī).
+* ""Điện thoại"" Hán Việt y hệt tiếng Việt.",,,,gioi-thieu
+35,你会说中文吗？,nǐ huì shuō zhōng wén ma?,Bạn biết nói tiếng Trung không?,Can you speak Chinese?,Nỉ huầy sua trung uấn ma?,"你 (nǐ · NHĨ): bạn
+会 (huì · HỘI): biết (do học mà biết)
+说 (shuō · THUYẾT): nói
+中文 (Zhōngwén · TRUNG VĂN): tiếng Trung
+吗 (ma): không?
+= Bạn biết nói tiếng Trung không?
++ 会 + kỹ năng: 会开车 (biết lái xe), 会游泳 (biết bơi)
+* ""Thuyết"" như ""thuyết trình"", ""diễn thuyết"".",,,,hoc-tieng
+36,我会说一点儿。,wǒ huì shuō yì diǎnr.,Tôi biết nói một chút.,I can speak a little.,Ủa huầy sua ì tiểnr.,"我 (wǒ · NGÃ): tôi
+会说 (huì shuō): biết nói
+一点儿 (yìdiǎnr · NHẤT ĐIỂM NHI): một chút
+= Tôi biết nói một chút.
+> Câu khiêm tốn của người mới học. Nói xong thường được khen ngay: 你说得很好！
+* 一点 = ""nhất điểm"": một chấm nhỏ → một chút.",,,,hoc-tieng
+37,我听不懂。,wǒ tīng bù dǒng.,Tôi nghe không hiểu.,I don't understand (what I hear).,Ủa thinh pù tủng.,"我 (wǒ · NGÃ): tôi
+听 (tīng · THÍNH): nghe
+不懂 (bù dǒng · BẤT ĐỔNG): không hiểu
+= Tôi nghe không hiểu.
++ động từ + 不懂 = làm mà không hiểu: 看不懂 (đọc không hiểu)
+* ""Thính"" như ""thính giác"", ""thính giả"".",,,,hoc-tieng
+38,我明白了。,wǒ míng bái le.,Tôi hiểu rồi.,I see. / I understand.,Ủa mính pái lơ.,"我 (wǒ · NGÃ): tôi
+明白 (míngbai · MINH BẠCH): hiểu rõ
+了 (le · LIỄU): rồi
+= Tôi hiểu rồi.
+! 我明白了 = hiểu ý rồi; 我知道了 = biết rồi (đã nhận thông tin).
+* ""Minh bạch"" = rõ ràng. Hiểu rõ ràng rồi.",,,,hoc-tieng
+39,请再说一遍。,qǐng zài shuō yí biàn.,Xin nói lại lần nữa.,Please say it again.,Schỉnh zài sua í piền.,"请 (qǐng · THỈNH): xin
+再 (zài · TÁI): lại
+说 (shuō · THUYẾT): nói
+一遍 (yí biàn · NHẤT BIẾN): một lượt
+= Xin nói lại lần nữa.
+> Câu cứu cánh của người mới học khi nghe không kịp.
+* ""Tái thuyết nhất biến"": nói lại thêm một lượt.",,,,hoc-tieng
+40,请说慢一点。,qǐng shuō màn yì diǎn.,Xin nói chậm một chút.,Please speak more slowly.,Schỉnh sua màn ì tiển.,"请 (qǐng · THỈNH): xin
+说 (shuō · THUYẾT): nói
+慢 (màn · MẠN): chậm
+一点 (yìdiǎn · NHẤT ĐIỂM): một chút
+= Xin nói chậm một chút.
++ tính từ + 一点 = hơn một chút: 快一点 (nhanh chút), 便宜一点 (rẻ chút)
+* 慢 có bộ 忄 (trái tim): lòng thong thả thì làm gì cũng chậm.",,,,hoc-tieng
+41,这个中文怎么说？,zhè ge zhōng wén zěn me shuō?,Cái này tiếng Trung nói thế nào?,How do you say this in Chinese?,Trừa cơ trung uấn zẩn mơ sua?,"这个 (zhège · GIÁ CÁ): cái này
+中文 (Zhōngwén · TRUNG VĂN): tiếng Trung
+怎么 (zěnme · CHẨM MA): thế nào
+说 (shuō · THUYẾT): nói
+= Cái này tiếng Trung nói thế nào?
+> Chỉ tay vào đồ vật và hỏi: cách học từ mới nhanh nhất khi ở Trung Quốc.
++ 怎么 + động từ = làm thế nào: 怎么走？ (đi thế nào?), 怎么写？ (viết thế nào?)",,,,hoc-tieng
+42,是的。,shì de.,"Vâng, phải.",Yes.,Sừ tơ.,"是 (shì · THỊ): phải, là
+的 (de · ĐÍCH): (nhấn mạnh)
+= Vâng, phải.
+! Tiếng Trung không có từ riêng cho ""có/vâng"": thường lặp lại động từ trong câu hỏi. 你去吗？ → 去。
+* 是 là ""thị"" trong ""thị phi"" (phải trái).",,,,tra-loi
+43,不是。,bú shì.,Không phải.,"No, it isn't.",Pú sừ.,"不 (bú · BẤT): không
+是 (shì · THỊ): phải
+= Không phải.
+! 不 đứng trước thanh 4 (是) đọc thành thanh 2: bú shì.
+* ""Bất thị"" = không phải.",,,,tra-loi
+44,对！,duì!,Đúng rồi!,Right!,Tuầy!,"对 (duì · ĐỐI): đúng
+= Đúng rồi!
+> Nhấn mạnh: 对对对！ (đúng đúng đúng!), người Trung hay nói liền ba lần.
+* ""Đối"" như ""đối đáp"": trả lời trúng.",,,,tra-loi
+45,好的。,hǎo de.,"Được rồi, OK.",Okay.,Hảo tơ.,"好 (hǎo · HẢO): tốt, được
+的 (de · ĐÍCH): (nhấn mạnh)
+= Được rồi, OK.
+> Đồng ý khi được nhờ hay được dặn. Nói gọn: 好！ Quán xá hay nói 好嘞！ (hǎo lei).
+* ""Hảo"" như ""hảo hạng"": tốt, được.",,,,tra-loi
+46,没问题。,méi wèn tí.,Không vấn đề gì.,No problem.,Mấy uần thí.,"没 (méi · MỘT): không có
+问题 (wèntí · VẤN ĐỀ): vấn đề
+= Không vấn đề gì.
+> Nhận lời giúp ai đó một cách chắc chắn.
+* ""Một vấn đề"" = không có vấn đề. Đọc Hán Việt là hiểu ngay.",,,,tra-loi
+47,当然！,dāng rán!,Đương nhiên!,Of course!,Tang rán!,"当然 (dāngrán · ĐƯƠNG NHIÊN): đương nhiên
+= Đương nhiên!
+> Nói mạnh hơn: 当然了！ hoặc 那当然！ (Chứ còn gì nữa!)
+* Hán Việt ""đương nhiên"", giống hệt tiếng Việt.",,,,tra-loi
+48,我知道了。,wǒ zhī dào le.,Tôi biết rồi.,Got it.,Ủa trư tào lơ.,"我 (wǒ · NGÃ): tôi
+知道 (zhīdao · TRI ĐẠO): biết
+了 (le · LIỄU): rồi
+= Tôi biết rồi.
+> Đáp lại khi được dặn dò. Nói giọng gắt sẽ thành ""biết rồi, khổ lắm nói mãi"".
+* 知 = 矢 (mũi tên) + 口 (miệng): nói nhanh như tên bắn là người hiểu biết. ""Tri"" như ""tri thức"".",,,,tra-loi
+49,我不知道。,wǒ bù zhī dào.,Tôi không biết.,I don't know.,Ủa pù trư tào.,"我 (wǒ · NGÃ): tôi
+不 (bù · BẤT): không
+知道 (zhīdao · TRI ĐẠO): biết
+= Tôi không biết.
++ 不 + động từ = phủ định: 不去 (không đi), 不要 (không cần)
+> Lịch sự hơn: 我也不太清楚 (Tôi cũng không rõ lắm).",,,,tra-loi
+50,真的吗？,zhēn de ma?,Thật không?,Really?,Trân tơ ma?,"真的 (zhēn de · CHÂN ĐÍCH): thật
+吗 (ma): không?
+= Thật không?
+> Tỏ ý ngạc nhiên. Trả lời: 真的！ (Thật mà!)
+* ""Chân"" như ""chân thật"", ""chân lý"".",,,,tra-loi
+51,太好了！,tài hǎo le!,Tuyệt quá!,Great!,Thài hảo lơ!,"太 (tài · THÁI): quá
+好 (hǎo · HẢO): tốt
+了 (le): (cảm thán)
+= Tuyệt quá!
++ 太 + tính từ + 了: 太贵了 (đắt quá), 太累了 (mệt quá)
+* ""Thái"" như ""thái quá"": vượt mức.",,,,tra-loi
+52,加油！,jiā yóu!,Cố lên!,Go for it! / You can do it!,Chia dấu!,"加 (jiā · GIA): thêm
+油 (yóu · DU): dầu
+= Cố lên!
+! Nghĩa đen là ""đổ thêm dầu"", như đổ xăng cho xe chạy tiếp → tiếp sức, cổ vũ.
+* Tương truyền từ thời đèn dầu: học trò thức khuya, đèn sắp tắt thì châm thêm dầu để học tiếp. ""Thêm dầu"" thành ""cố lên"".
+> Hô khi cổ vũ thể thao, động viên thi cử: 中国队加油！",,,,tra-loi
+53,这是什么？,zhè shì shén me?,Đây là cái gì?,What is this?,Trừa sừ sấn mơ?,"这 (zhè · GIÁ): đây, này
+是 (shì · THỊ): là
+什么 (shénme · THẬP MA): cái gì
+= Đây là cái gì?
++ 这 (gần) ↔ 那 (xa): 那是什么？ (Kia là cái gì?)
+> Chỉ vào đồ vật rồi hỏi để học từ mới.",,,,cau-hoi
+54,那是什么？,nà shì shén me?,Kia là cái gì?,What is that?,Nà sừ sấn mơ?,"那 (nà · NA): kia, đó
+是 (shì · THỊ): là
+什么 (shénme · THẬP MA): cái gì
+= Kia là cái gì?
+* 那 đọc ""nà"", na ná ""nọ"" trong ""cái nọ cái kia"".",,,,cau-hoi
+55,怎么了？,zěn me le?,Sao vậy?,What's wrong?,Zẩn mơ lơ?,"怎么 (zěnme · CHẨM MA): sao, thế nào
+了 (le · LIỄU): rồi
+= Sao vậy?
+> Hỏi khi thấy ai buồn, đau hoặc có chuyện lạ: 你怎么了？ (Bạn sao thế?)",,,,cau-hoi
+56,为什么？,wèi shén me?,Tại sao?,Why?,Uầy sấn mơ?,"为 (wèi · VỊ): vì
+什么 (shénme · THẬP MA): cái gì
+= Tại sao?
++ Trả lời bằng 因为…… (vì...): 因为我很累 (vì tôi mệt)
+* ""Vị thập ma"" = vì cái gì → tại sao. ""Vị"" như ""vị tha"".",,,,cau-hoi
+57,怎么办？,zěn me bàn?,Làm sao bây giờ?,What should we do?,Zẩn mơ pàn?,"怎么 (zěnme · CHẨM MA): thế nào
+办 (bàn · BIỆN): làm, xử lý
+= Làm sao bây giờ?
+> Câu than khi gặp rắc rối. Thêm 啊 nghe lo lắng hơn: 怎么办啊？
+* 办 là ""biện"" trong ""biện pháp"": tìm biện pháp đây!",,,,cau-hoi
+58,你在哪儿？,nǐ zài nǎr?,Bạn đang ở đâu?,Where are you?,Nỉ zài nảr?,"你 (nǐ · NHĨ): bạn
+在 (zài · TẠI): ở, tại
+哪儿 (nǎr): đâu
+= Bạn đang ở đâu?
+! Miền Bắc Trung Quốc nói 哪儿, miền Nam hay nói 哪里 (nǎlǐ). Nghĩa như nhau.
+* ""Tại"" như ""hiện tại"", ""tại chỗ"".",,,,cau-hoi
+59,你去哪儿？,nǐ qù nǎr?,Bạn đi đâu đấy?,Where are you going?,Nỉ schuỳ nảr?,"你 (nǐ · NHĨ): bạn
+去 (qù · KHỨ): đi
+哪儿 (nǎr): đâu
+= Bạn đi đâu đấy?
+> Cũng là câu chào xã giao khi gặp ai trên đường, giống ""Đi đâu đấy?"" của người Việt.
+* ""Khứ"" như ""quá khứ"" (đã đi qua), ""khứ hồi"" (đi và về).",,,,cau-hoi
+60,你有时间吗？,nǐ yǒu shí jiān ma?,Bạn có thời gian không?,Do you have time?,Ní dẩu sứ chiên ma?,"你 (nǐ · NHĨ): bạn
+有 (yǒu · HỮU): có
+时间 (shíjiān · THỜI GIAN): thời gian
+吗 (ma): không?
+= Bạn có thời gian không?
+> Hỏi trước khi rủ rê hoặc nhờ việc. Thân mật hơn: 有空吗？
+* ""Hữu thời gian"": Hán Việt y như tiếng Việt.",,,,cau-hoi
+61,洗手间在哪儿？,xǐ shǒu jiān zài nǎr?,Nhà vệ sinh ở đâu?,Where is the restroom?,Xí sẩu chiên zài nảr?,"洗手间 (xǐshǒujiān · TẨY THỦ GIAN): nhà vệ sinh
+在 (zài · TẠI): ở
+哪儿 (nǎr): đâu
+= Nhà vệ sinh ở đâu?
+! ""Tẩy thủ gian"" = phòng rửa tay, cách nói tế nhị. Cách nói thẳng: 厕所 (cèsuǒ).
+* 厕所 Hán Việt là ""xí sở"", chính là ""nhà xí"" trong tiếng Việt!",,,,cau-hoi
+62,现在几点？,xiàn zài jǐ diǎn?,Bây giờ là mấy giờ?,What time is it now?,Xiền zài chí tiển?,"现在 (xiànzài · HIỆN TẠI): bây giờ
+几 (jǐ · KỶ): mấy
+点 (diǎn · ĐIỂM): giờ
+= Bây giờ là mấy giờ?
++ Trả lời: số + 点: 三点 (3 giờ), 三点半 (3 giờ rưỡi)
+* 点 là ""điểm"" như đồng hồ ""điểm"" 12 tiếng.",,,,thoi-gian
+63,今天星期几？,jīn tiān xīng qī jǐ?,Hôm nay là thứ mấy?,What day is it today?,Chin thiên xinh schi chỉ?,"今天 (jīntiān · KIM THIÊN): hôm nay
+星期 (xīngqī · TINH KỲ): tuần
+几 (jǐ · KỶ): mấy
+= Hôm nay là thứ mấy?
++ 星期 + số: 星期一 (thứ Hai) ... 星期六 (thứ Bảy), Chủ nhật là 星期天
+! Lệch một số so với tiếng Việt: 星期一 là thứ HAI, 星期二 là thứ BA...",,,,thoi-gian
+64,今天几号？,jīn tiān jǐ hào?,Hôm nay là ngày mấy?,What's the date today?,Chin thiên chỉ hào?,"今天 (jīntiān · KIM THIÊN): hôm nay
+几 (jǐ · KỶ): mấy
+号 (hào · HIỆU): ngày (trong tháng)
+= Hôm nay là ngày mấy?
++ Trả lời: số + 号: 今天十号 (hôm nay ngày 10)
+! Văn nói dùng 号, văn viết dùng 日 (rì).",,,,thoi-gian
+65,今天很冷。,jīn tiān hěn lěng.,Hôm nay rất lạnh.,It's very cold today.,Chin thiên hấn lẩng.,"今天 (jīntiān · KIM THIÊN): hôm nay
+很 (hěn · NGẬN): rất
+冷 (lěng · LÃNH): lạnh
+= Hôm nay rất lạnh.
++ 很 + tính từ: 很热 (rất nóng), 很忙 (rất bận)
+* ""Lãnh"" như ""lãnh đạm"" (lạnh nhạt). 冷 có bộ 冫 (hai giọt băng) → lạnh.",,,,thoi-gian
+66,今天很热。,jīn tiān hěn rè.,Hôm nay rất nóng.,It's very hot today.,Chin thiên hẩn rừa.,"今天 (jīntiān · KIM THIÊN): hôm nay
+很 (hěn · NGẬN): rất
+热 (rè · NHIỆT): nóng
+= Hôm nay rất nóng.
+* ""Nhiệt"" như ""nhiệt độ"". 热 có bộ 灬 (bốn chấm lửa) ở dưới → nóng.",,,,thoi-gian
+67,下雨了。,xià yǔ le.,Trời mưa rồi.,It's raining.,Xià duỷ lơ.,"下 (xià · HẠ): rơi xuống
+雨 (yǔ · VŨ): mưa
+了 (le · LIỄU): rồi
+= Trời mưa rồi.
++ 下 + 雨/雪: 下雪了 (tuyết rơi rồi)
+* 雨 trông như bầu trời có những giọt mưa rơi bên dưới.",,,,thoi-gian
+68,我饿了。,wǒ è le.,Tôi đói rồi.,I'm hungry.,Ủa ừa lơ.,"我 (wǒ · NGÃ): tôi
+饿 (è · NGẠ): đói
+了 (le · LIỄU): rồi
+= Tôi đói rồi.
+* 饿 = 饣 (ăn) + 我 (tôi): ""tôi"" cần ""ăn"" → đói! ""Ngạ"" như ""ngạ quỷ"" (quỷ đói).",,,,cam-giac
+69,我渴了。,wǒ kě le.,Tôi khát rồi.,I'm thirsty.,Ủa khửa lơ.,"我 (wǒ · NGÃ): tôi
+渴 (kě · KHÁT): khát
+了 (le · LIỄU): rồi
+= Tôi khát rồi.
+* Hán Việt là ""khát"", y hệt tiếng Việt! Bộ 氵 (nước) bên trái → cần nước.",,,,cam-giac
+70,我累了。,wǒ lèi le.,Tôi mệt rồi.,I'm tired.,Ủa lầy lơ.,"我 (wǒ · NGÃ): tôi
+累 (lèi · LỤY): mệt
+了 (le · LIỄU): rồi
+= Tôi mệt rồi.
++ 太累了 (mệt quá), ghép với mẫu 太...了
+* ""Lụy"" như ""liên lụy"", ""lụy tình"": bị đè nặng → mệt mỏi.",,,,cam-giac
+71,我困了。,wǒ kùn le.,Tôi buồn ngủ rồi.,I'm sleepy.,Ủa khuần lơ.,"我 (wǒ · NGÃ): tôi
+困 (kùn · KHỐN): buồn ngủ
+了 (le · LIỄU): rồi
+= Tôi buồn ngủ rồi.
+! Phân biệt: 困 (buồn ngủ) khác 累 (mệt).
+* 困 = 木 (cây) bị nhốt trong 囗 (khung): người buồn ngủ như bị ""giam"" trong cơn ngủ. ""Khốn"" như ""khốn đốn"".",,,,cam-giac
+72,我很忙。,wǒ hěn máng.,Tôi rất bận.,I'm very busy.,Úa hẩn máng.,"我 (wǒ · NGÃ): tôi
+很 (hěn · NGẬN): rất
+忙 (máng · MANG): bận
+= Tôi rất bận.
+> Hỏi lại: 你忙吗？ (Bạn bận không?)
+* 忙 = 忄 (trái tim) + 亡 (mất): bận đến ""mất cả tâm trí"".",,,,cam-giac
+73,我不舒服。,wǒ bù shū fu.,Tôi thấy không khỏe.,I don't feel well.,Ủa pù su phu.,"我 (wǒ · NGÃ): tôi
+不 (bù · BẤT): không
+舒服 (shūfu · THƯ PHỤC): dễ chịu
+= Tôi thấy không khỏe.
+> Dùng khi mệt, đau, khó chịu trong người. Nhẹ hơn 生病 (bị bệnh).
+* ""Thư"" như ""thư giãn"". Không thư giãn được → khó chịu, không khỏe.",,,,cam-giac
+74,我生病了。,wǒ shēng bìng le.,Tôi bị ốm rồi.,I'm sick.,Ủa sâng pình lơ.,"我 (wǒ · NGÃ): tôi
+生病 (shēng bìng · SINH BỆNH): bị bệnh
+了 (le · LIỄU): rồi
+= Tôi bị ốm rồi.
+> Xin nghỉ: 我生病了，今天不能来。 (Tôi ốm rồi, hôm nay không đến được.)
+* ""Sinh bệnh"" = sinh ra bệnh → bị ốm. 病 đọc ""bệnh"" y hệt tiếng Việt.",,,,cam-giac
+75,我喜欢你。,wǒ xǐ huan nǐ.,Tôi thích bạn.,I like you.,Úa xỉ hoan nỉ.,"我 (wǒ · NGÃ): tôi
+喜欢 (xǐhuan · HỈ HOAN): thích
+你 (nǐ · NHĨ): bạn
+= Tôi thích bạn.
++ 喜欢 + danh từ/động từ: 喜欢中国菜 (thích món Trung), 喜欢看书 (thích đọc sách)
+* ""Hỉ hoan"" = vui mừng hân hoan. 喜 là chữ trong ""song hỉ"" dán ở đám cưới.",,,,cam-giac
+76,我爱你。,wǒ ài nǐ.,Anh yêu em. / Em yêu anh.,I love you.,Ủa ài nỉ.,"我 (wǒ · NGÃ): tôi
+爱 (ài · ÁI): yêu
+你 (nǐ · NHĨ): bạn
+= Anh yêu em. / Em yêu anh.
+! 喜欢 (thích) nhẹ hơn 爱 (yêu). Người Trung ít khi nói thẳng 我爱你.
+* ""Ái"" như ""ái tình"". Giới trẻ nhắn số 520 (wǔ èr líng) vì đọc gần giống 我爱你.",,,,cam-giac
+77,我想你。,wǒ xiǎng nǐ.,Tôi nhớ bạn.,I miss you.,Úa xéng nỉ.,"我 (wǒ · NGÃ): tôi
+想 (xiǎng · TƯỞNG): nhớ, nghĩ
+你 (nǐ · NHĨ): bạn
+= Tôi nhớ bạn.
+! 想 + người = nhớ; 想 + động từ = muốn: 我想喝水 (tôi muốn uống nước).
+* 想 = 相 (hình bóng) + 心 (tim): hình bóng ai đó hiện trong tim → nhớ. ""Tưởng"" như ""tưởng nhớ"".",,,,cam-giac
+78,你吃饭了吗？,nǐ chī fàn le ma?,Bạn ăn cơm chưa?,Have you eaten?,Nỉ chư phàn lơ ma?,"你 (nǐ · NHĨ): bạn
+吃饭 (chīfàn · NGẬT PHẠN): ăn cơm
+了吗 (le ma): ...chưa?
+= Bạn ăn cơm chưa?
+> Đây là câu CHÀO HỎI, không phải lời mời ăn. Chỉ cần đáp 吃了 (ăn rồi).
++ động từ + 了吗？ = đã... chưa?: 你到了吗？ (Bạn đến chưa?)
+* Giống hệt người Việt hỏi ""Ăn cơm chưa?"". Hai nước cùng coi trọng chuyện ăn.",,,,an-uong
+79,我吃了。,wǒ chī le.,Tôi ăn rồi.,I've eaten.,Ủa chư lơ.,"我 (wǒ · NGÃ): tôi
+吃 (chī · NGẬT): ăn
+了 (le · LIỄU): rồi
+= Tôi ăn rồi.
+> Đáp câu 你吃饭了吗？ Chưa ăn thì nói: 还没吃 (hái méi chī).
+* 吃 có bộ 口 (miệng) → ăn.",,,,an-uong
+80,好吃！,hǎo chī!,Ngon quá!,Delicious!,Hảo chư!,"好 (hǎo · HẢO): tốt, dễ
+吃 (chī · NGẬT): ăn
+= Ngon quá!
++ 好 + động từ = ... hay, dễ chịu: 好看 (đẹp), 好听 (êm tai), 好玩 (vui)
+* ""Dễ ăn"" → ngon. Khen nhiệt tình hơn: 太好吃了！",,,,an-uong
+81,我想喝水。,wǒ xiǎng hē shuǐ.,Tôi muốn uống nước.,I want to drink some water.,Úa xẻng hưa suẩy.,"我 (wǒ · NGÃ): tôi
+想 (xiǎng · TƯỞNG): muốn
+喝 (hē · HÁT): uống
+水 (shuǐ · THỦY): nước
+= Tôi muốn uống nước.
++ 我想 + động từ: 我想回家 (muốn về nhà), 我想睡觉 (muốn đi ngủ)
+* ""Thủy"" như ""thủy điện"". 喝 có bộ 口 (miệng) → uống.",,,,an-uong
+82,请给我菜单。,qǐng gěi wǒ cài dān.,Cho tôi xem thực đơn.,"The menu, please.",Schính cấy ủa xài tan.,"请 (qǐng · THỈNH): xin
+给 (gěi · CẤP): đưa, cho
+我 (wǒ · NGÃ): tôi
+菜单 (càidān · THÁI ĐƠN): thực đơn
+= Cho tôi xem thực đơn.
++ 请给我 + đồ vật: 请给我一杯水 (cho tôi một cốc nước)
+* 菜单 = ""thái đơn"": tờ đơn ghi các món (菜 = món ăn). 给 là ""cấp"" trong ""cung cấp"".",,,,an-uong
+83,买单！,mǎi dān!,Tính tiền!,"The bill, please!",Mải tan!,"买 (mǎi · MÃI): mua
+单 (dān · ĐƠN): hóa đơn
+= Tính tiền!
+> Gọi phục vụ: 服务员，买单！ Miền Bắc Trung Quốc còn nói 结账 (jiézhàng).
+* Gốc tiếng Quảng Đông 埋单 (""gom hóa đơn lại""), lan ra cả nước thành 买单 = ""mua hóa đơn"".",,,,an-uong
+84,多少钱？,duō shǎo qián?,Bao nhiêu tiền?,How much is it?,Tua sảo schién?,"多 (duō · ĐA): nhiều
+少 (shǎo · THIỂU): ít
+多少 (duōshao): nhiều hay ít → bao nhiêu
+钱 (qián · TIỀN): tiền
+= Bao nhiêu tiền?
+> Câu hỏi giá thông dụng nhất. Rõ hơn: 这个多少钱？ (Cái này bao nhiêu tiền?)
+* ""Đa thiểu tiền"": nhiều hay ít tiền đây? Hỏi giá đúng kiểu mặc cả.",,,,mua-sam
+85,太贵了！,tài guì le!,Đắt quá!,Too expensive!,Thài cuầy lơ!,"太 (tài · THÁI): quá
+贵 (guì · QUÝ): đắt
+了 (le): (cảm thán)
+= Đắt quá!
++ 太 + tính từ + 了: 太好了 (tốt quá), 太累了 (mệt quá)
+* 贵 là ""quý"" trong ""quý giá"". Đồ quý thì đắt.",,,,mua-sam
+86,便宜一点吧。,pián yi yì diǎn ba.,Rẻ hơn chút đi.,Make it a bit cheaper.,Piến di ì tiển pa.,"便宜 (piányi · TIỆN NGHI): rẻ
+一点 (yìdiǎn · NHẤT ĐIỂM): một chút
+吧 (ba): ...đi (đề nghị)
+= Rẻ hơn chút đi.
+! 便宜 viết giống ""tiện nghi"" nhưng nghĩa là RẺ. Bẫy cho người Việt!
+> Mặc cả ở chợ: 能便宜一点吗？ (Rẻ chút được không?)
+* Đồ vừa ""tiện nghi"" vừa rẻ thì ai cũng mua.",,,,mua-sam
+87,我要这个。,wǒ yào zhè ge.,Tôi lấy cái này.,I'll take this one.,Ủa dào trừa cơ.,"我 (wǒ · NGÃ): tôi
+要 (yào · YẾU): muốn, cần
+这个 (zhège · GIÁ CÁ): cái này
+= Tôi lấy cái này.
+> Chỉ vào món đồ hoặc món ăn rồi nói. Đi chợ, gọi món đều dùng được.
++ 我要 + danh từ: 我要一杯咖啡 (tôi lấy một ly cà phê)
+* 要 là ""yếu"" trong ""thiết yếu"": thứ mình cần.",,,,mua-sam
+88,我不要。,wǒ bú yào.,Tôi không lấy đâu.,I don't want it.,Ủa pú dào.,"我 (wǒ · NGÃ): tôi
+不 (bú · BẤT): không
+要 (yào · YẾU): muốn, cần
+= Tôi không lấy đâu.
+> Từ chối người bán hàng mời chào. Lịch sự hơn: 不用了，谢谢 (Không cần đâu, cảm ơn).
+! 不 trước thanh 4 (要) đọc thành thanh 2: bú yào.",,,,mua-sam
+89,可以刷卡吗？,kě yǐ shuā kǎ ma?,Quẹt thẻ được không?,Can I pay by card?,Khứa dỉ soa khả ma?,"可以 (kěyǐ · KHẢ DĨ): có thể
+刷卡 (shuākǎ · XOÁT TẠP): quẹt thẻ
+吗 (ma): không?
+= Quẹt thẻ được không?
+> Ở Trung Quốc giờ phổ biến nhất là quét mã: 可以用微信吗？ (Dùng WeChat được không?)
+* ""Khả dĩ"" tiếng Việt cũng dùng. 卡 đọc ""kǎ"", mượn âm tiếng Anh ""card"".",,,,mua-sam
+90,我在家。,wǒ zài jiā.,Tôi đang ở nhà.,I'm at home.,Ủa zài chia.,"我 (wǒ · NGÃ): tôi
+在 (zài · TẠI): ở
+家 (jiā · GIA): nhà
+= Tôi đang ở nhà.
++ 我在 + nơi chốn: 我在学校 (ở trường), 我在公司 (ở công ty)
+* 家 = 宀 (mái nhà) + 豕 (con lợn): nhà xưa nuôi lợn dưới mái là ""nhà"". ""Gia"" như ""gia đình"".",,,,di-lai
+91,我们走吧。,wǒ men zǒu ba.,Chúng ta đi thôi.,Let's go.,Ủa mân zẩu pa.,"我们 (wǒmen · NGÃ MÔN): chúng ta
+走 (zǒu · TẨU): đi
+吧 (ba): ...thôi (rủ rê)
+= Chúng ta đi thôi.
++ ......吧 = rủ, đề nghị: 我们吃饭吧 (mình ăn cơm thôi)
+* ""Tẩu"" như ""tẩu thoát"". 走 trong tiếng Trung là đi bộ, rời đi.",,,,di-lai
+92,我去学校。,wǒ qù xué xiào.,Tôi đến trường.,I'm going to school.,Ủa schuỳ xuế xèo.,"我 (wǒ · NGÃ): tôi
+去 (qù · KHỨ): đi
+学校 (xuéxiào · HỌC HIỆU): trường học
+= Tôi đến trường.
++ 去 + nơi chốn: 去公司 (đến công ty), 去超市 (đi siêu thị)
+* ""Học hiệu"": như ""hiệu trưởng"" là người đứng đầu trường.",,,,di-lai
+93,我回家了。,wǒ huí jiā le.,Tôi về nhà đây.,I'm going home.,Ủa huấy chia lơ.,"我 (wǒ · NGÃ): tôi
+回家 (huí jiā · HỒI GIA): về nhà
+了 (le · LIỄU): (đây, rồi)
+= Tôi về nhà đây.
+> Nói khi chào mọi người ra về.
+* 回 trông như hai vòng lồng nhau: đi một vòng rồi quay về. ""Hồi"" như ""hồi hương"".",,,,di-lai
+94,等一下！,děng yí xià!,Đợi chút!,Wait!,Tẩng í xià!,"等 (děng · ĐẲNG): đợi
+一下 (yíxià · NHẤT HẠ): một chút
+= Đợi chút!
+> Gọi người đang đi để họ dừng lại, hoặc khi mình chưa sẵn sàng. Lịch sự hơn: 请等一下。
+* ""Đẳng"" nghe như ""đứng"": đứng lại đợi chút!",,,,tinh-huong
+95,快点儿！,kuài diǎnr!,Nhanh lên!,Hurry up!,Khoài tiểnr!,"快 (kuài · KHOÁI): nhanh
+点儿 (diǎnr): một chút
+= Nhanh lên!
++ 快 + động từ: 快走 (đi nhanh lên), 快来 (mau lại đây)
+* ""Khoái"" vừa là nhanh vừa là sướng: làm nhanh thì sướng!",,,,tinh-huong
+96,小心！,xiǎo xīn!,Cẩn thận!,Be careful!,Xẻo xin!,"小 (xiǎo · TIỂU): nhỏ
+心 (xīn · TÂM): tim, lòng
+= Cẩn thận!
+> Biển báo hay gặp: 小心地滑 (Cẩn thận sàn trơn).
+* ""Tiểu tâm"" = để tâm vào từng điều nhỏ → cẩn thận.",,,,tinh-huong
+97,帮帮我！,bāng bang wǒ!,Giúp tôi với!,Help me!,Pang pang ủa!,"帮 (bāng · BANG): giúp
+我 (wǒ · NGÃ): tôi
+= Giúp tôi với!
++ Lặp động từ = làm một chút, nhẹ nhàng: 帮帮 (giúp chút), 看看 (xem chút)
+> Khẩn cấp hơn: 救命！ (Cứu với!)
+* ""Bang"" như ""bang hội"": hội giúp đỡ nhau.",,,,tinh-huong
+98,祝你生日快乐！,zhù nǐ shēng rì kuài lè!,Chúc mừng sinh nhật bạn!,Happy birthday!,Trù nỉ sâng rư khoài lừa!,"祝 (zhù · CHÚC): chúc
+你 (nǐ · NHĨ): bạn
+生日 (shēngrì · SINH NHẬT): sinh nhật
+快乐 (kuàilè · KHOÁI LẠC): vui vẻ
+= Chúc mừng sinh nhật bạn!
++ 祝你 + lời chúc: 祝你好运 (chúc may mắn), 祝你成功 (chúc thành công)
+* ""Chúc"" và ""sinh nhật"" đọc y hệt tiếng Việt.",,,,chuc-mung
+99,新年快乐！,xīn nián kuài lè!,Chúc mừng năm mới!,Happy New Year!,Xin niến khoài lừa!,"新年 (xīnnián · TÂN NIÊN): năm mới
+快乐 (kuàilè · KHOÁI LẠC): vui vẻ
+= Chúc mừng năm mới!
+> Tết Âm lịch người Trung còn chúc 恭喜发财 (gōngxǐ fācái, ""cung hỷ phát tài"").
+* ""Tân niên"" như ""tân xuân"", ""tân thời"".",,,,chuc-mung
+100,一路平安！,yí lù píng ān!,Thượng lộ bình an!,Have a safe trip!,Í lù pính an!,"一路 (yílù · NHẤT LỘ): suốt chặng đường
+平安 (píng'ān · BÌNH AN): bình an
+= Thượng lộ bình an!
+> Chúc người sắp đi xa. Cũng hay nói 一路顺风 (thuận buồm xuôi gió).
+* ""Nhất lộ bình an"": suốt dọc đường đều bình an.",,,,chuc-mung

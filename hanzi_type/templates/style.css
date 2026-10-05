@@ -7,6 +7,8 @@
   --zh: #b4232a;
   --pinyin: #0f766e;
   --chip: #f3efe7;
+  --note: #b45309;
+  --note-bg: #fef3c7;
 
   font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -28,6 +30,8 @@
   --zh: #ff7a7f;
   --pinyin: #5eead4;
   --chip: #2a2e36;
+  --note: #f59e0b;
+  --note-bg: #3a2e14;
 }
 
 .wrap {
@@ -268,3 +272,92 @@ code#typeans {
   border-radius: 12px;
   object-fit: cover;
 }
+
+/* giải thích (mặt sau) */
+.explain {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--line);
+  text-align: left;
+}
+
+.ex-words {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.ex-words td {
+  padding: 6px 8px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--line);
+}
+
+.ex-words tr:last-child td { border-bottom: none; }
+
+.ex-zh {
+  width: 1%;
+  white-space: nowrap;
+  font-family: "PingFang SC", "Noto Sans SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  font-size: 22px;
+  color: var(--zh);
+}
+
+.ex-py {
+  width: 1%;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--pinyin);
+}
+
+.ex-hv {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.ex-vi { font-size: 16px; }
+
+.ex-line {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.ex-tag {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  vertical-align: 1px;
+  color: var(--muted);
+  background: var(--chip);
+  border-radius: 999px;
+}
+
+.ex-mean { font-size: 17px; font-weight: 600; }
+.ex-mean .ex-tag { color: var(--panel); background: var(--zh); }
+
+.ex-note {
+  padding: 8px 10px;
+  background: var(--note-bg);
+  border-radius: 10px;
+}
+.ex-note .ex-tag { color: var(--panel); background: var(--note); }
+
+.ex-use .ex-tag { color: var(--panel); background: var(--pinyin); }
+
+.ex-pattern {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.ex-tip { font-style: italic; color: var(--muted); }
+.ex-tip .ex-tag { font-style: normal; }

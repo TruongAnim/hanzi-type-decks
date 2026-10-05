@@ -7,12 +7,13 @@ from pathlib import Path
 
 import genanki
 
-from . import media
+from . import explain, media
 from .notetype import FIELDS, build_model
 from .text import clean_chinese, to_pinyin
 
 # Cột của deck.csv. Bắt buộc: Chinese, Vietnamese. Còn lại có thể để trống.
-COLUMNS = ["No", "Chinese", "Pinyin", "Vietnamese", "English", "Phonetic VI", "Audio", "Video", "Image", "Tags"]
+COLUMNS = ["No", "Chinese", "Pinyin", "Vietnamese", "English", "Phonetic VI", "Explanation",
+           "Audio", "Video", "Image", "Tags"]
 REQUIRED = ["Chinese", "Vietnamese"]
 
 
@@ -108,6 +109,7 @@ def build_deck(folder: Path, fresh: bool = False, tts: bool = True, write_pinyin
             "Vietnamese": r["Vietnamese"],
             "English": r.get("English", ""),
             "Phonetic VI": r.get("Phonetic VI", ""),
+            "Explanation": explain.render(r.get("Explanation", "")),
             "Audio": media.audio_html(audio) if audio else "",
             "Video": media.video_html(*video) if video else "",
             "Image": media.image_html(r["Image"]) if r.get("Image") else "",

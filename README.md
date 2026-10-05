@@ -14,6 +14,7 @@ Mỗi bộ từ là một thư mục gồm **file CSV danh sách câu** và **fi
 - [Cài đặt công cụ](#cài-đặt-công-cụ)
 - [Tạo một bộ từ mới](#tạo-một-bộ-từ-mới)
 - [Định dạng `deck.csv`](#định-dạng-deckcsv)
+- [Viết phần giải thích (`Explanation`)](#viết-phần-giải-thích-explanation)
 - [Định dạng `deck.json`](#định-dạng-deckjson)
 - [Audio, video, hình ảnh](#audio-video-hình-ảnh)
 - [Lệnh build và các tuỳ chọn](#lệnh-build-và-các-tuỳ-chọn)
@@ -51,6 +52,12 @@ Mỗi bộ từ là một thư mục gồm **file CSV danh sách câu** và **fi
            jǐ diǎn le?                   ← pinyin
                ( ▶ )                     ← audio tự phát, bấm để nghe lại
      ĐỌC BỒI  Chí tiến lơ?
+   - - - - - - - - - - - - - - - - - -
+     几   jǐ  · KỶ      mấy               ← giải thích: tách nghĩa từng chữ,
+     点   diǎn · ĐIỂM   giờ                  kèm âm Hán Việt
+     了   le  · LIỄU    rồi
+     [NGHĨA] Mấy giờ rồi?
+     [CÁCH DÙNG] ...  [MẪU CÂU] ...  [MẸO NHỚ] ...
          [ video ]  [ ảnh ]              ← nếu có
 ```
 
@@ -76,7 +83,7 @@ Học trên: Anki máy tính (Windows/macOS/Linux), AnkiDroid (Android), AnkiMob
 | Thư mục | Tên | Số câu | Ghi chú |
 |---|---|---|---|
 | [`001-chao-hoi-co-ban`](decks/001-chao-hoi-co-ban/) | Chào hỏi cơ bản | 10 | Bộ mẫu. Video là video test |
-| [`002-100-cau-co-ban`](decks/002-100-cau-co-ban/) | 100 câu cơ bản | 100 | Câu thông dụng nhất cho người mới: chào hỏi, giới thiệu, hỏi đáp, ăn uống, mua sắm… |
+| [`002-100-cau-co-ban`](decks/002-100-cau-co-ban/) | 100 câu cơ bản | 100 | Câu thông dụng nhất cho người mới: chào hỏi, giới thiệu, hỏi đáp, ăn uống, mua sắm… Có đọc bồi + giải thích đầy đủ |
 
 ---
 
@@ -91,6 +98,7 @@ hanzi-type-decks/
 │   ├── build.py                 #   đọc CSV, kiểm tra lỗi, đóng gói .apkg
 │   ├── notetype.py              #   note type "Hanzi Type": field + id cố định
 │   ├── media.py                 #   audio TTS, chuyển đổi video
+│   ├── explain.py               #   chuyển cột Explanation thành HTML
 │   ├── text.py                  #   sinh pinyin, chuẩn hoá dấu câu
 │   └── templates/               #   giao diện thẻ
 │       ├── front.html           #     mặt trước
@@ -159,10 +167,10 @@ decks/002-mua-sam/
 Mở bằng Excel, Google Sheets, Numbers hoặc trình soạn thảo bất kỳ. Tối thiểu chỉ cần 2 cột `Chinese` và `Vietnamese`:
 
 ```csv
-No,Chinese,Pinyin,Vietnamese,English,Phonetic VI,Audio,Video,Image,Tags
-,多少钱？,,Bao nhiêu tiền?,How much is it?,,,,,
-,太贵了！,,Đắt quá!,Too expensive!,,,,,
-,可以便宜一点吗？,,Có thể rẻ hơn chút không?,Can it be cheaper?,,,,,
+No,Chinese,Pinyin,Vietnamese,English,Phonetic VI,Explanation,Audio,Video,Image,Tags
+,多少钱？,,Bao nhiêu tiền?,How much is it?,,,,,,
+,太贵了！,,Đắt quá!,Too expensive!,,,,,,
+,可以便宜一点吗？,,Có thể rẻ hơn chút không?,Can it be cheaper?,,,,,,
 ```
 
 > **Lưu file dạng CSV UTF-8.** Excel: *File → Save As → CSV UTF-8 (Comma delimited)*.
@@ -226,6 +234,7 @@ Sau đó sửa cột `Pinyin` nếu sai — câu nào đã có pinyin thì công
 | `Vietnamese` | **✓** | Nghĩa tiếng Việt (câu hỏi ở mặt trước) | `Mấy giờ rồi?` |
 | `English` | | Nghĩa tiếng Anh (hiện ở cả hai mặt) | `What time is it?` |
 | `Phonetic VI` | | Đọc bồi kiểu Việt, chỉ để tham khảo (xem quy ước bên dưới) | `Chí tiến lơ?` |
+| `Explanation` | | Giải thích câu, nhiều dòng trong một ô (xem [mục riêng](#viết-phần-giải-thích-explanation)) | `钱 (qián · TIỀN): tiền` |
 | `Audio` | | Tên file audio trong `media/`. Trống → tự sinh TTS | `cau7.mp3` |
 | `Video` | | Tên file video trong `media/` | `cau7.mp4` |
 | `Image` | | Tên file ảnh trong `media/` | `dong-ho.jpg` |
@@ -247,6 +256,58 @@ Quy tắc:
 | g / k / h | c / kh / h | | f | ph |
 
 Ghi theo cách đọc thật (có biến điệu): `你好` → `Ní hảo`, `一路平安` → `Í lù pính an`.
+
+---
+
+## Viết phần giải thích (`Explanation`)
+
+Phần giải thích hiện ở **mặt sau** thẻ, giúp hiểu vì sao câu có nghĩa như vậy và nhớ lâu hơn. Mỗi ý viết một dòng, trong **cùng một ô** CSV. Ký tự đầu dòng quyết định cách hiển thị:
+
+| Dòng bắt đầu bằng | Ý nghĩa | Hiển thị |
+|---|---|---|
+| `chữ (pinyin · HÁN VIỆT): nghĩa` | Tách nghĩa từng chữ / từ | Bảng: chữ Hán to, pinyin + Hán Việt nhỏ |
+| `=` | Nghĩa cả câu (luôn nên có) | Nhãn **NGHĨA**, chữ đậm |
+| `!` | Lưu ý: nghĩa bóng, bẫy, phân biệt | Nhãn **LƯU Ý**, nền vàng |
+| `>` | Cách dùng: nói khi nào, với ai, đáp lại thế nào | Nhãn **CÁCH DÙNG** |
+| `+` | Mẫu câu dùng lại được | Nhãn **MẪU CÂU**, có khung |
+| `*` | Mẹo nhớ: câu chuyện, chiết tự, liên tưởng | Nhãn **MẸO NHỚ**, chữ nghiêng |
+| (dòng khác) | Đoạn văn thường | |
+
+Trong dòng tách nghĩa, phần Hán Việt có thể bỏ: `了吗 (le ma): ...chưa?`
+
+**Ví dụ:**
+
+```
+太 (tài · THÁI): quá
+贵 (guì · QUÝ): đắt
+了 (le): (cảm thán)
+= Đắt quá!
++ 太 + tính từ + 了: 太好了 (tốt quá), 太累了 (mệt quá)
+* 贵 là "quý" trong "quý giá". Đồ quý thì đắt.
+```
+
+```
+加 (jiā · GIA): thêm
+油 (yóu · DU): dầu
+= Cố lên!
+! Nghĩa đen là "đổ thêm dầu", như đổ xăng cho xe chạy tiếp → tiếp sức, cổ vũ.
+* Tương truyền từ thời đèn dầu: học trò thức khuya, đèn sắp tắt thì châm thêm dầu để học tiếp.
+```
+
+**Xuống dòng trong một ô:** Excel `Alt + Enter` (macOS: `⌃ ⌥ Enter`), Google Sheets `Ctrl + Enter` (macOS: `⌘ Enter`). Trong file CSV, ô nhiều dòng được bọc trong dấu ngoặc kép `"..."` — Excel/Sheets tự làm việc này khi lưu.
+
+### Viết gì cho hay
+
+Mục tiêu là **dễ hiểu, dễ nhớ**, không phải luận văn. Mỗi thẻ nên **3–8 dòng** — dài hơn người học sẽ bỏ qua. Ưu tiên theo thứ tự:
+
+1. **Âm Hán Việt** — vũ khí riêng của người Việt: `问题` = "vấn đề", `当然` = "đương nhiên", `贵` = "quý" (→ đắt). Ghi vào dòng tách nghĩa cho mọi chữ có âm Hán Việt.
+2. **Chiết tự** — tách chữ thành bộ phận để nhớ mặt chữ (rất cần cho phương pháp gõ): `好` = `女` + `子`, `饿` = `饣` (ăn) + `我` (tôi) → tôi cần ăn → đói.
+3. **Cách dùng** — `你吃饭了吗？` là câu chào, không phải lời mời; `您` dùng với người lớn; `谢谢` → đáp `不客气`.
+4. **Mẫu câu** — `太 + tính từ + 了`, `我想 + động từ`… học một mẫu, ghép được nhiều câu.
+5. **Mẹo nhớ** — câu chuyện, liên tưởng âm thanh, chuyện vui. **Không cần đúng sự thật**, miễn dễ nhớ và liên quan; chuyện truyền miệng thì mở đầu bằng "Tương truyền…".
+6. **Lưu ý** — bẫy cho người Việt (`便宜` viết như "tiện nghi" nhưng nghĩa là *rẻ*), nghĩa bóng, phân biệt từ dễ nhầm (`困` buồn ngủ ≠ `累` mệt).
+
+Không cần đủ cả 6 loại — câu đơn giản chỉ cần tách nghĩa + nghĩa cả câu + một dòng bất kỳ đáng nhớ.
 
 ---
 
@@ -359,17 +420,18 @@ Mọi bộ thẻ dùng chung một note type tên **Hanzi Type** với **id cố
 | 3 | `Vietnamese` | Nghĩa tiếng Việt |
 | 4 | `English` | Nghĩa tiếng Anh |
 | 5 | `Phonetic VI` | Đọc bồi |
-| 6 | `Audio` | `<audio src="...">` |
-| 7 | `Video` | `<video><source webm><source mp4></video>` |
-| 8 | `Image` | `<img src="...">` |
-| 9 | `No` | Số thứ tự |
+| 6 | `Explanation` | Giải thích (HTML, build từ định dạng rút gọn trong CSV) |
+| 7 | `Audio` | `<audio src="...">` |
+| 8 | `Video` | `<video><source webm><source mp4></video>` |
+| 9 | `Image` | `<img src="...">` |
+| 10 | `No` | Số thứ tự |
 
 ### Sửa giao diện
 
 | File | Nội dung |
 |---|---|
 | [`templates/front.html`](hanzi_type/templates/front.html) | Mặt trước: câu hỏi, ô gõ, các nút gợi ý (+ JavaScript xử lý nút) |
-| [`templates/back.html`](hanzi_type/templates/back.html) | Mặt sau: kết quả chấm, đáp án, audio tự phát, video, ảnh |
+| [`templates/back.html`](hanzi_type/templates/back.html) | Mặt sau: kết quả chấm, đáp án, audio tự phát, giải thích, video, ảnh |
 | [`templates/style.css`](hanzi_type/templates/style.css) | Màu sắc, cỡ chữ, chế độ tối |
 
 Màu chính khai báo ở đầu `style.css` (và bản chế độ tối ngay bên dưới):
@@ -404,6 +466,7 @@ Checklist trước khi gửi:
 
 - [ ] Chữ Hán đúng (cẩn thận lỗi OCR/gõ nhầm: `要`/`耍`, `天`/`夭`, `来`/`夹`, `大`/`犬`…)
 - [ ] Pinyin đã soát (`--write-pinyin`), nghĩa tiếng Việt tự nhiên, không lỗi chính tả
+- [ ] (Khuyến khích) Có phần `Explanation`, âm Hán Việt đúng
 - [ ] Câu ngắn gọn, phù hợp trình độ ghi trong mô tả
 - [ ] Không có nội dung thô tục, xúc phạm
 - [ ] Media là của bạn hoặc được phép chia sẻ; video ngắn, nhẹ
@@ -425,6 +488,9 @@ Checklist trước khi gửi:
 
 **Import xong không thấy ô gõ chữ?**
 Kiểm tra note type của thẻ là `Hanzi Type` (Browse → cột Note). Nếu trước đó bạn đã import một bản cũ có cùng note type nhưng giao diện khác, Anki có thể hỏi có cập nhật note type không — chọn cập nhật.
+
+**Import xong thấy note type tên lạ kiểu `Hanzi Type-a1b2c`?**
+Do trước đó bạn đã import một bản có note type `Hanzi Type` với số field khác (ví dụ bản trước khi có cột `Explanation`). Anki không gộp được nên tạo bản sao. Cách sạch nhất: xoá các deck Hanzi Type cũ, vào **Tools → Manage Note Types** xoá các note type `Hanzi Type…` không còn dùng, rồi import lại.
 
 **Gõ đúng mà vẫn bị báo sai?**
 Thường do dấu câu: bộ gõ tiếng Anh ra `?`, đáp án là `？`. Bật bộ gõ tiếng Trung khi gõ cả câu.
